@@ -1,4 +1,10 @@
 theme: jekyll-theme-cayman
-title: Blog de Esteban Quezada
+title: Ezteven blog
 description: Me gusta ver el mundo desde otras perspectivas.
 show_downloads: false
+google_analytics: UA-121844997-1
+# Author details.
+author:
+    name: Esteban Quezada
+    email: esteban.lds@outlook.com
+    web: http://twitter.com/quezadaesteban
