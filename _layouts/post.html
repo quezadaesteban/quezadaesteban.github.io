@@ -19,10 +19,18 @@
   </header>
 
   <main id="content" class="main-content" role="main">
+    <!-- Look the author details up from the site config. -->
+    {% assign author = site.data.authors[page.author] %}
+    <!-- Output author details if some exist. -->
+    {% if author %}
+      <span>
+          <!-- Personal Info. -->
+          Escrito por <span style="font-weight: bold;">{{ author.name }}</span>
+      </span>
+    {% endif %}
     {{ content }}
-
     <footer class="site-footer">
-
+        <span class="site-footer-owner"><a href="{{ site.url }}">{{ site.title }}</a> es mantenido por <a href="{{ site.author.url }}">{{ site.author.name }}</a>.</span>
     </footer>
   </main>
 
