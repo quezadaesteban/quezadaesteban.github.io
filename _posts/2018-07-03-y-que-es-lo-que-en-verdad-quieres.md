@@ -1,6 +1,10 @@
 ---
 layout: post
+title: Y...¿Qué es lo que en verdad quieres?
+categories: Personal
+author: esteban_quezada
 ---
+
 # Y...¿Qué es lo que en verdad quieres?
 
 La línea entre hacer lo que queremos y lo que debemos suele ser muy delgada.
