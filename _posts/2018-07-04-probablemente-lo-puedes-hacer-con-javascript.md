@@ -10,7 +10,7 @@ Cuando buscamos desarrollar algo, ya sea una página web, una aplicación móvil
 
 Hay un lenguaje de programación que ha estado adquiriendo auje en los últimos años, una de las principales razones es su flexibilidad, fácil acceso y soporte multiplataforma.
 
-![alt text](https://cdn-images-1.medium.com/max/1052/1*DN7ToydkJZEdVaJVK_Nhvw.png "JavaScript")
+![alt text]({{ "/assets/img/js-logo.png" | absolute_url }} "JavaScript")
 
 ## JavaScript
 Definido como un _lenguaje de programación de alto nivel e interpretado_. Es para muchos la herramienta por defecto para crear software.
