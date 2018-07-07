@@ -3,6 +3,7 @@ layout: post
 title: Probablemente lo puedes hacer con JavaScript
 categories: Tech
 author: esteban_quezada
+lang: es
 ---
 
 # Probablemente lo puedes hacer con JavaScript

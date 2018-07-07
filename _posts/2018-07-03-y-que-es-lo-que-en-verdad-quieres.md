@@ -3,6 +3,7 @@ layout: post
 title: Y...¿Qué es lo que en verdad quieres?
 categories: Personal
 author: esteban_quezada
+lang: es
 ---
 
 # Y...¿Qué es lo que en verdad quieres?
