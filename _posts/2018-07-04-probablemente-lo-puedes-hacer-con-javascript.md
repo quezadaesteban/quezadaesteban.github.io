@@ -1,15 +1,17 @@
 ---
 layout: post
 title: Probablemente lo puedes hacer con JavaScript
+description: Cuando buscamos desarrollar, ya sea una página web, una aplicación móvil o una aplicación de escritorio nos enfrentamos a diferentes desafíos.
+image: /assets/img/js-logo.png
 categories: Tech
 author: esteban_quezada
 lang: es
 ---
 
 # Probablemente lo puedes hacer con JavaScript
-Cuando buscamos desarrollar algo, ya sea una página web, una aplicación móvil o una aplicación de escritorio nos enfrentamos a diferentes desafíos. Algunas de las preguntas que nos hacemos giran en torno a que herramientas tengo disponibles, que lenguajes necesito aprender o incluso, que tan útil puede ser lo que aprenda en el futuro.
+Cuando buscamos desarrollar, ya sea una página web, una aplicación móvil o una aplicación de escritorio nos enfrentamos a diferentes desafíos. Algunas de las preguntas que nos hacemos giran en torno a que herramientas tengo disponibles, que lenguajes necesito aprender o incluso, que tan útil puede ser lo que aprenda en el futuro.
 
-Hay un lenguaje de programación que ha estado adquiriendo auje en los últimos años, una de las principales razones es su flexibilidad, fácil acceso y soporte multiplataforma.
+Hay un lenguaje de programación que ha estado adquiriendo auge en los últimos años, una de las principales razones es su flexibilidad, fácil acceso y soporte multiplataforma.
 
 <img src="/assets/img/js-logo.png" alt="JavaScript" width="100%"/>
 
