@@ -16,7 +16,7 @@ Cuando el programa está escrito solo por nosotros, es relativamente fácil comp
 
 Pero resulta que la mayoría de los programas que hagas quizás los realices con otras personas. Y aún si lo haces solo, no sería bueno que los demás lo pudieran entender?
 
-Es por eso que les traigo esta guía de lineamientos basadas en el [estándar](https://standardjs.com/) de programación en JavaScript.
+Es por eso que les traigo esta guía de lineamientos **basada en el [estándar](https://standardjs.com/) de programación en JavaScript**.
 
 # Guía de lineamientos
 El propósito de la creación de esta guía es estandarizar la forma de escribir el código que se desarrolla. Esto para unificar criterios, reducir el tiempo de análisis y facilitar la comprensión y actualización de código previamente escrito.
