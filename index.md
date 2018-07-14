@@ -8,19 +8,22 @@ lang: es
 ---
 
 ## Publicaciones recientes
+---
 
 <div>
   {% for post in site.posts %}
-    <div style="display: flex">
-      <div style="flex: 75%">
+    <div class="post-row">
+      <div class="post-col-left">
         <a href="{{ post.url }}">
-        <h3>{{ post.title }}</h3>
-        <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+        <div class="post-title">{{ post.title }}</div>
+        <div class="post-description">{{ post.description | truncatewords: 15 }}</div>
+        <div class="post-date">{{ post.date | date: "%d %B %Y" }}</div>
         </a>
       </div>
-      <div style="flex: 20%">
+      <div class="post-col-right">
         {% if post.image %}
-          <img src="{{ post.image }}">
+          <div class="post-image" style="background: url({{ post.image }}) 50% 50% no-repeat;">
+          </div>
         {% endif %}
       </div>
     </div>
