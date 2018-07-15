@@ -17,7 +17,7 @@ lang: es
         <a href="{{ post.url }}">
         <div class="post-title">{{ post.title }}</div>
         <div class="post-description">{{ post.description | truncatewords: 15 }}</div>
-        <div class="post-date">{{ post.date | date: "%d %B %Y" }}</div>
+        <div class="post-date">{{ post.categories }} · {{ post.date | date: "%d %B %Y" }}</div>
         </a>
       </div>
       <div class="post-col-right">
