@@ -14,25 +14,31 @@ Vamos a realizar algo para luego preguntarnos, “Por qué estoy haciendo esto?�
 
 <img src="/assets/img/road-nature-focus.jpg" alt="Equilibrio" width="100%"/>
 
-## Hacerlo sin propósito
-
 Por lo general tenemos una motivación para llevar a cabo una acción, no actuamos por actuar sin siquiera haber concebido que íbamos a hacer. Sin embargo, la motivación puede desvanecerse rápidamente, aún más si no tenemos un camino de realización previamente definido. Se vuelve fácil perder el ánimo ante los problemas, el cansancio, las dudas y la incertidumbre. Incluso llegamos a pensar que el sacrificio no vale la pena los beneficios a obtener.
 
-La mayoría de las veces cuando logramos terminar una tarea recibimos cierto sentido de satisfacción por acabar o conseguir aquello por lo que estábamos trabajando. Esto suele darnos la energía que necesitamos para seguir con más o la comodidad de detenernos y hacer algo más entretenido.
+> Tienes que tener mucho cuidado si no sabes a dónde te diriges, porque podrías no llegar ahí.
+
+No tener un propóstivo es como caminar a ceigas con la esperanza de que las cosas simplemente sucedan. Procurar un propósito en lo que hacemos pueda ser como la luz y la oscuridad en el éxito que tengamos.
+
+La mayoría de las veces cuando logramos terminar una tarea recibimos cierto sentido de satisfacción por acabar o conseguir aquello por lo que estábamos trabajando. Esto suele darnos la energía que necesitamos para seguir con más o la comodidad de detenernos para hacer otras cosas que quizás sean de nuestro interés.
 
 ## Encontrar un propósito
 
-Cuando vayamos a llevar a cabo una tarea algunas de las preguntas que me han ayudado a encontrar el propósito que necesito y por ende la motivación para hacer han sido las siguientes:
-¿Qué es lo que tengo que hacer?
-¿Por qué lo voy a hacer?
-¿Cuál es el objetivo?
-¿Qué beneficios voy a recibir al hacerlo?
+> El mundo le abre paso al hombre que sabe a dónde se dirige. – Ralph Waldo Emerson
+
+Cuando vayamos a llevar a cabo una tarea algunas de las preguntas que me han ayudado a encontrar el propósito que necesito y por ende la motivación para hacerlo han sido las siguientes:
+* ¿Qué es lo que tengo que hacer?
+* ¿Por qué lo voy a hacer?
+* ¿Cuál es el objetivo?
+* ¿Qué beneficios voy a recibir al hacerlo?
 
 Estás preguntas suelen darme el impulso necesario para levantarme y comenzar con la tarea a realizar. También son las que me ayudan a no desistir una vez me encuentro con los problemas y las dificultades de la tarea en cuestión.
 
-## Crear un propósito
-
 Puede que aún las preguntas anteriores no proporcionen del incentivo necesario para completar una tarea, lo que suele suceder cuando son responsabilidades impuestas sobre nosotros, las cuales tenemos que completar así sea que no nos agrade hacerlas.
-En estos casos buscar aprende algo de la tarea en cuestión o tratar de hacerlo de otra manera de como usualmente la hacemos puede hacer la experiencia más amena y proporcionarnos de motivación para finalizar.
+En estos casos buscar aprende algo de la tarea en cuestión o tratar de hacerlo diferente de como usualmente la hacemos puede hacer la experiencia más amena y proporcionarnos de motivación para realizarla.
 
 La principal razón por la que no culminamos un proyecto, una tarea o alguna actividad a realizar, casi siempre es falta de motivación, propósito y un plan de acción para completarlas.
+
+> Establece altas tus metas, y no te detengas hasta que estés ahí. – Bo Jackson
+
+A medida que establezcamos nuestras metas y llevemos a cabo nuestros objetivos con propósito, tendremos la capacidad de cada vez lograr más.
