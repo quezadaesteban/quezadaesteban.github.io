@@ -1,4 +1,5 @@
 ---
+
 layout: post
 title: No tienes el control
 description: Enfocarnos en las cosas sobre las cuales no tenemos control, hará que perdamos de vista aquellas que sí.
@@ -6,6 +7,7 @@ image: /assets/img/cascade-peace.jpeg
 categories: Personal
 author: esteban_quezada
 lang: es
+
 ---
 # No tienes el control
 
