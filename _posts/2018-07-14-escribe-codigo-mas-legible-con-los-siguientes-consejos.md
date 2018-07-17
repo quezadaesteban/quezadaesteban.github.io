@@ -241,7 +241,7 @@ do {
 
 // condiciones ternarias
 let condicion = true
-(condicion) ? 'Condición acertada' : 'Condición fallida' // Condición acertada
+(condicion) ? 'Condición acertada' : 'Condición fallida' // condición acertada
 
 ```
 
