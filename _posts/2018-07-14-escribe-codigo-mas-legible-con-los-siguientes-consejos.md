@@ -224,6 +224,10 @@ if (condicion) {
 } else {
   // código de tercera condición
 }
+
+// condiciones ternarias
+let condicion = true
+(condicion) ? 'Condición acertada' : 'Condición fallida' // condición acertada
 ```
 Ciclos `while` y `for`
 ```javascript
@@ -238,10 +242,6 @@ while (true) {
 do {
   // código repetitivo
 } while (true)
-
-// condiciones ternarias
-let condicion = true
-(condicion) ? 'Condición acertada' : 'Condición fallida' // condición acertada
 
 ```
 
