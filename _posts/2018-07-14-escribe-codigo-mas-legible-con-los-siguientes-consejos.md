@@ -207,7 +207,7 @@ soyUnaFuncion();
 ```
 ### Uso de funciones nativas del lenguage
 
-JavaScript considera una valor falso si es:
+JavaScript considera un valor falso si es:
 * `false`
 * `0`
 * `''` o `""`
