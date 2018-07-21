@@ -36,12 +36,9 @@
   </header>
 
   <main id="content" class="main-content" role="main">
-    <!-- Look the author details up from the site config. -->
     {% assign author = site.data.authors[page.author] %}
-    <!-- Output author details if some exist. -->
     {% if author %}
       <span style="color: grey">
-          <!-- Personal Info. -->
           Escrito por <span style="font-weight: bold;">{{ author.name }}</span>
       </span>
     {% endif %}
