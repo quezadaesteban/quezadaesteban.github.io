@@ -6,12 +6,10 @@ image: /assets/icons/favicon-96x96.png
 author: esteban_quezada
 lang: es
 ---
-
-## Publicaciones recientes
----
-
+<h2>Publicaciones recientes</h2>
+<hr>
 <div>
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <div class="post-row">
       <div class="post-col-left">
         <a href="{{ post.url }}">
@@ -29,4 +27,17 @@ lang: es
     </div>
     <hr>
   {% endfor %}
+</div>
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="paginate-btn">Anterior</a>
+  {% else %}
+    <span class="paginate-btn">Anterior</span>
+  {% endif %}
+  <span class="paginate-btn">{{ paginator.page }} de {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="paginate-btn">Siguiente</a>
+  {% else %}
+    <span class="paginate-btn">Siguiente</span>
+  {% endif %}
 </div>

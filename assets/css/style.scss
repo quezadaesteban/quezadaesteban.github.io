@@ -72,6 +72,15 @@ $body-text-color: #383f42 !default;
 .icon-mail {
   color: #444444;
 }
+.paginate-btn {
+  border-radius: 5px;
+  border: 1px solid #EFF0F1;
+  padding: 10px 15px;
+}
+.paginate-desc {
+  font-weight: bold;
+  padding: 15px 10px 10px 10px;
+}
 @media only screen and (max-width: 600px) {
   .post-row {
     padding-top: 10px;
