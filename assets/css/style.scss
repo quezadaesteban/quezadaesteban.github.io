@@ -2,12 +2,13 @@
 ---
 $header-bg-color: #00b5a8 !default;
 $section-headings-color: #424242 !default;
+$header-bg-color-secondary: #2275c7 !default;
 $body-text-color: #383f42 !default;
 @import "{{ site.theme }}";
 .post-title {
-  color: #444444;
+  color: #424242;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 .post-description {
   color: #6d6d6d;
@@ -16,6 +17,7 @@ $body-text-color: #383f42 !default;
   color: #6d6d6d;
   font-size: 14px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 .post-image {
   position: absolute;
@@ -71,6 +73,9 @@ $body-text-color: #383f42 !default;
 }
 .icon-mail {
   color: #444444;
+}
+.pagination {
+  text-align: center;
 }
 .paginate-btn {
   border-radius: 5px;
