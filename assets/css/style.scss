@@ -81,6 +81,14 @@ $body-text-color: #383f42 !default;
   font-weight: bold;
   padding: 15px 10px 10px 10px;
 }
+.author {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: -25px;
+}
+.author-name {
+  font-weight: bold;
+}
 @media only screen and (max-width: 600px) {
   .post-row {
     padding-top: 10px;
