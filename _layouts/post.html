@@ -44,9 +44,7 @@
     {% endif %}
     {{ content }}
     {% include share-bar.html %}
-    <footer class="site-footer">
-        <span class="site-footer-owner"><a href="{{ site.url }}">{{ site.title }}</a> es mantenido por <a href="{{ site.author.url }}">{{ site.author.name }}</a>.</span>
-    </footer>
+    {% include footer.html %}
   </main>
 
   {% if site.google_analytics and jekyll.environment == "production" %}
