@@ -18,7 +18,12 @@
     <div class="mb--25">
       {% if author %}
         <div class="author">
-            Autor: <span class="author-name">{{ author.name }}</span>
+          <span>
+              Autor: <span class="author-name">{{ author.name }}</span>
+          </span>
+          <span>
+            on {{ page.date | date: "%d %B" }}
+          </span>
         </div>
       {% endif %}
       <span>
