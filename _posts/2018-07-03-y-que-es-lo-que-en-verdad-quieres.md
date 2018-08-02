@@ -27,6 +27,17 @@ sencilla frase ayuda a estas personas a ver su situación desde un punto de vist
 enfrentándose a sí mismos, sino uno en el que pueden tener un vistazo de porque a veces es tan difícil elegir y usar esa 
 perspectiva para tomar mejores decisiones.
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5094614990970064"
+     data-ad-slot="5333694687"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Como humanos, lidiamos con más cosas de las que podemos manejar. Personalmente, se me suelen salir las cosas de las manos, 
 sin embargo una de mis frases favoritas que repito a diario es _“la vida es un trabajo en progreso”_ y como tal siempre habrá 
 algo que podamos aprender, algo que podamos hacer mejor, mejores decisiones que podamos tomar, entre otras muchas cosas más. 
