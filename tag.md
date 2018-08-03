@@ -10,10 +10,10 @@ permalink: /tag/
 
 ---
 
-# Etiquetas
+## Etiquetas
 ---
 {% for tag in site.tags %}
-  <h1 id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h1>
+  <h2 id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h2>
   {% for post in tag[1] %}
   <div>
     <li>
