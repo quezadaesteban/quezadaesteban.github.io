@@ -1,5 +1,8 @@
 {
- "name": "App",
+ "name": "Ezteven blog",
+ "short_name": "Ezteven blog",
+ "start_url": "/",
+ "display": "standalone",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -36,6 +39,13 @@
    "sizes": "192x192",
    "type": "image\/png",
    "density": "4.0"
-  }
- ]
+  },
+  {
+    "src": "\/blog.ezteven.com.png",
+    "sizes": "782x782",
+    "type": "image\/png"
+   }
+ ],
+ "background_color": "#0F98B6",
+ "theme_color": "#0F98B6"
 }
