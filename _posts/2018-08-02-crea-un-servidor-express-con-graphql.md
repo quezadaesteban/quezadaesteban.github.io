@@ -16,12 +16,20 @@ lang: es
 <img class="thumbnail" src="/assets/img/mac-code-hand.jpeg" alt="Express GraphQL home page" width="100%" />
 </p>
 
+Contenido:
+* [Prerrequisitos](#prerrequisitos)
+* [Creación del proyecto](#creación-del-proyecto)
+* [Ejecución](#ejecución)
+* [Pruebas con GraphiQL](#pruebas-con-graphiql)
+* [Conclusiones](#conclusiones)
+
 Entre las tecnologías más interesantes de estos últimos años en lo que a desarrollo web se refiere, se encuentra la librería Express para crear servidores en nodejs y GraphQL, un lenguage de consulta para APIs que permite solicitar exactamente la información que se necesita de forma dinámica.
 
 ## Prerrequisitos
 Para ejecutar y comprender mejor los pasos es necesario tener:
 * `nodejs` instalado y por ende `npm` también.
 
+## Creación del proyecto
 Crear un servidor con Express y GraphQL es relativamente sencillo, para comenzar navegamos a la carpeta donde vamos a crear nuestro servidor. Dentro de la carpeta abrimos la consola, creamos un directorio y navegamos dentro de el. En este caso la carpeta se llamará `express-gql`.
 
 ```bash
@@ -177,7 +185,7 @@ let personas = require('./personas.json')
 ```
 Ahora le diremos a la API de graphql como traer esa información que definimos en el esquema. Para esto crearemos funciones que manipulen el arreglo de objetos `personas` que requerimos hace poco. Es importante saber que las modificaciones que se hagan sobre los datos en tiempo de ejecución no se modificarán en el archivo real, es decir en `personas.json`, ya que estamos usando una variable temporal con la cual requerimos el archivo.
 
-Procedo a colocar el código para satisfacer los `Query` y `Mutation`. Cuando se lleva  acabo una consulta con graphql se recibe un objeto de argumentos, estos argumentos son los parámetros enviados con la consulta.  Estaré utilizando destructuración de objetos para utilizar las propiedades directamente al crear la función. Más información [aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring).
+Procedo a colocar el código con las funciones que se le aplicarán a nuestro esquema. Cuando se lleva  acabo una consulta con graphql se recibe un objeto de argumentos, estos argumentos son los parámetros enviados con la consulta.  Estaré utilizando `destructuración de objetos` para utilizar las propiedades directamente al crear la función. Más información [aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring).
 
 ```javascript
 // para los query
@@ -220,7 +228,7 @@ app.use('/graphql', expressGraphQL({
 app.listen(port, () => console.log(`Servidor graphql corriendo en http://localhost:${port}/graphql`))
 ```
 
-El archivo final debe quedar de la siguiente forma:
+El archivo `index.js` debe quedar de la siguiente forma:
 
 ```javascript
 const express = require('express')
@@ -279,6 +287,8 @@ app.use('/graphql', expressGraphQL({
 app.listen(port, () => console.log(`Servidor graphql corriendo en http://localhost:${port}/graphql`))
 ```
 
+## Ejecución
+
 Para correr el servidor ejecutamos el siguiente comando en la consola dentro del proyecto:
 
 ```bash
@@ -293,6 +303,7 @@ Al navegar a [http://localhost:4000/graphql](http://localhost:4000/graphql), se 
 
 Tenemos acceso a un panel gráfico para interactuar con nuestro API ya que colocamos `graphiql: true` al crear el endpoint.
 
+## Pruebas con GraphiQL
 Si colocamos `{ mensaje }` del lado derecho, el API debe mostrar el siguiente resultado:
 
 <p align="center">
@@ -329,6 +340,7 @@ Si consultamos nuevamente el query `personas` con edad `18` veremos que ahora `C
 <img src="/assets/img/express-graphql-home-5.png" alt="Express GraphQL home page" width="100%" />
 </p>
 
+## Conclusiones
 Con estos ejemplos vemos que GraphQL nos brinda un entorno gráfico donde podemos probar nuestros esquemas y procesos. Específicamente en nuestro caso logramos emplear diversos conceptos de GraphQL como son los esquemas, los métodos que resuelven los mismos y la configuración de estos en un servidor Express.
 
-Espero esta guía les haya sido de ayuda. ¡Saludos!
+Espero esta guía les sea de ayuda. ¡Saludos!
