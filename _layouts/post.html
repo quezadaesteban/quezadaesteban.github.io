@@ -18,10 +18,14 @@
       {% if author %}
         <div class="author">
           <span>
-              Autor: <span class="author-name">{{ author.name }}</span>
+              Escrito por <span class="author-name">{{ author.name }}</span>
           </span>
           <span>
-            on {{ page.date | date: "%d %B" }}
+            · 
+            {% assign m = page.date | date: "%-m" | minus: 1 %}
+            {{ page.date | date: "%-d" }} 
+            de 
+            {{ site.data.es.months[m] }}
           </span>
         </div>
       {% endif %}

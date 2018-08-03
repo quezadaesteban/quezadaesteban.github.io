@@ -14,7 +14,12 @@ lang: es
       <div class="post-col-left">
         <a href="{{ post.url }}">
         <div class="post-title">{{ post.title }}</div>
-        <div class="post-date">{{ post.categories }} · {{ post.date | date: "%d %B" }}</div>
+        <div class="post-date">{{ post.categories }} · 
+          {% assign m = post.date | date: "%-m" | minus: 1 %}
+          {{ post.date | date: "%-d" }} 
+          de 
+          {{ site.data.es.months[m] }}
+        </div>
         <div class="post-description">{{ post.description | truncatewords: 15 }}</div>
         
         </a>
