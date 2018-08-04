@@ -41,7 +41,7 @@ Vamos a inicializar el proyecto con `npm` utilizando `npm init`, rellenamos las 
 ```bash
 $ npm init
 ```
-Luego vamos complentando las opciones, si no colocamos nada, automáticamente se seleccionara el valor por defecto. Pueden reemplazar `<nombre-de-autor>` por sus nombres.
+Luego vamos completando las opciones, si no colocamos nada, automáticamente se seleccionara el valor por defecto. Pueden reemplazar `<nombre-de-autor>` por sus nombres.
 
 ```bash
 This utility will walk you through creating a package.json file.
