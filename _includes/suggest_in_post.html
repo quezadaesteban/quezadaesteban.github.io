@@ -4,6 +4,7 @@
       <h2>Articulos relacionados</h2>
       {% for post in tag[1] limit: 5 %}
         {% if post.title != page.title %}
+          <hr>
           <div class="post-row">
             <div class="post-col-left">
               <a href="{{ post.url }}">
