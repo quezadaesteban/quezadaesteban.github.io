@@ -2,7 +2,7 @@
   {% for tag in site.tags limit:1 %}
     {% if tag[0] == tagx %}
       <h2>Articulos relacionados</h2>
-      {% for post in tag[1] %}
+      {% for post in tag[1] limit: 5 %}
         {% if post.title != page.title %}
           <div class="post-row">
             <div class="post-col-left">
