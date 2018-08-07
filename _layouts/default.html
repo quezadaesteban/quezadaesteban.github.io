@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="{{ page.lang }}">
 <head>
   {% include head.html %}
   {% include mainjs.html %}
 </head>
 <body>
   <header class="page-header" role="banner">
-    <h1 class="project-name"><a href="/" style="color: white">{{ site.title | default: site.github.repository_name }}</a></h1>
-    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    <h1 class="project-name"><a href="{{ site.data.i18n.url_prefix[page.lang] }}/" style="color: white">{{ site.data.i18n.title[page.lang] | default: site.github.repository_name }}</a></h1>
+    <h2 class="project-tagline">{{ site.data.i18n.description[page.lang] | default: site.github.project_tagline }}</h2>
   </header>
 
   <main id="content" class="main-content" role="main">

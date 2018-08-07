@@ -5,8 +5,8 @@ title: Ezteven blog
 description: Acerca de
 image: /assets/icons/favicon-96x96.png
 author: esteban_quezada
-lang: es
-permalink: /about.html
+lang: pt
+permalink: /pt/about.html
 
 ---
 

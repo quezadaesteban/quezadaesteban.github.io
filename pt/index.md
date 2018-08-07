@@ -5,23 +5,26 @@ title: Ezteven blog
 description: Me gusta ver el mundo desde otras perspectivas.
 image: /assets/icons/favicon-96x96.png
 author: esteban_quezada
-lang: es
-permalink: /404.html
+lang: pt
 
 ---
 
-<h2 align="center">No encotramos lo que buscas, aunque quizás quieras leer...</h2>
+<h2>{{ site.data.i18n.publicaciones[page.lang] }} | <a href="/" class="grey--text es">es</a> · <a href="/pt/" class="black--text pt">pt</a></h2>
 <hr>
 <div>
   {% assign posts=site.posts | where:"lang", page.lang %}
-  {% for post in posts limit:1 %}
+  {% for post in posts %}
     <div class="post-row">
       <div class="post-col-left">
         <a href="{{ post.url }}">
         <div class="post-title">{{ post.title }}</div>
-        <div class="post-date">{{ post.categories }} · {{ post.date | date: "%d %B" }}</div>
+        <div class="post-date">{{ post.categories }} · 
+          {% assign m = post.date | date: "%-m" | minus: 1 %}
+          {{ post.date | date: "%-d" }} 
+          de 
+          {{ site.data.i18n.meses[page.lang][m] }}
+        </div>
         <div class="post-description">{{ post.description | truncatewords: 15 }}</div>
-        
         </a>
       </div>
       <div class="post-col-right">
@@ -35,5 +38,6 @@ permalink: /404.html
   {% endfor %}
 </div>
 <div class="pagination">
-<a href="/" class="paginate-btn">Ir a la página principal</a>
+    <span class="paginate-btn">{{ site.data.i18n.anterior[page.lang] }}</span>
+    <span class="paginate-btn">{{ site.data.i18n.siguiente[page.lang] }}</span>
 </div>

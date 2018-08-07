@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="{{ page.lang }}">
 <head>
   {% include head.html %}
   <link href="/assets/css/fontello.css" rel="stylesheet">
@@ -8,7 +8,7 @@
 <body>
   <header class="page-header" role="banner">
     <h1 class="project-name">
-      <a href="/" style="color: white">{{ site.title | default: site.github.repository_name }}</a>
+      <a href="{{ site.data.i18n.url_prefix[page.lang] }}/" style="color: white">{{ site.data.i18n.title[page.lang]  | default: site.github.repository_name }}</a>
     </h1>
   </header>
 
@@ -18,21 +18,21 @@
       {% if author %}
         <div class="author">
           <span>
-              Escrito por <span class="author-name">{{ author.name }}</span>
+              {{ site.data.i18n.escrito_por[page.lang] }} <span class="author-name">{{ author.name }}</span>
           </span>
           <span>
             · 
             {% assign m = page.date | date: "%-m" | minus: 1 %}
             {{ page.date | date: "%-d" }} 
-            de 
-            {{ site.data.es.months[m] }}
+            {{ site.data.i18n.de[page.lang] }} 
+            {{ site.data.i18n.meses[page.lang][m] }}
           </span>
         </div>
       {% endif %}
       <span>
         {% for tag in page.tags %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a href="/tag/#{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+          <a href="{{ site.data.i18n.url_prefix[page.lang] }}/tag/#{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
         {% endfor %}
       </span>
     </div>

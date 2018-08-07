@@ -1,5 +1,5 @@
 <footer class="site-footer">
   <span class="site-footer-owner">
-    <a href="{{ site.url }}">{{ site.title }}</a> &#169; <span id="year"></span> | <a href="/privacypolicy.html">Privacy Policy</a><br>Por <a href="/about.html">{{ site.author.name }}</a>
+    <a href="{{ site.url }}{{ site.data.i18n.url_prefix[page.lang] }}">{{ site.data.i18n.title[page.lang] }}</a> &#169; <span id="year"></span> | <a href="{{ site.data.i18n.url_prefix[page.lang] }}/privacypolicy.html">Privacy Policy</a><br>{{ site.data.i18n.por[page.lang] }} <a href="{{ site.data.i18n.url_prefix[page.lang] }}/about.html">{{ site.author.name }}</a>
   </span>
 </footer>

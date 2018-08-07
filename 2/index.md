@@ -1,15 +1,18 @@
 ---
+
 layout: default
 title: Ezteven blog
 description: Me gusta ver el mundo desde otras perspectivas.
 image: /assets/icons/favicon-96x96.png
 author: esteban_quezada
 lang: es
+
 ---
-<h2>Publicaciones</h2>
+<h2>{{ site.data.i18n.publicaciones[page.lang] }}</h2>
 <hr>
 <div>
-  {% for post in paginator.posts %}
+  {% assign posts=site.posts | where:"lang", page.lang %}
+  {% for post in posts offset:5 limit:5 %}
     <div class="post-row">
       <div class="post-col-left">
         <a href="{{ post.url }}">
@@ -34,15 +37,6 @@ lang: es
   {% endfor %}
 </div>
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="paginate-btn">Anterior</a>
-  {% else %}
-    <span class="paginate-btn">Anterior</span>
-  {% endif %}
-  <span class="paginate-btn">{{ paginator.page }} de {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="paginate-btn">Siguiente</a>
-  {% else %}
-    <span class="paginate-btn">Siguiente</span>
-  {% endif %}
+    <span class="paginate-btn"><a href="/">{{ site.data.i18n.anterior[page.lang] }}</a></span>
+    <span class="paginate-btn">{{ site.data.i18n.siguiente[page.lang] }}</span>
 </div>

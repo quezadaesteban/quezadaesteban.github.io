@@ -1,0 +1,55 @@
+url_prefix:
+    es: 
+    pt: /pt
+title:
+    es: Ezteven blog
+    pt: Ezteven blog
+description:
+    es: Me gusta ver el mundo desde otras perspectivas.
+    pt: Gosto de ver o mundo desde outras perspectivas.
+publicaciones:
+    es: Publicaciones
+    pt: Publicações
+anterior:
+    es: Anterior
+    pt: Anterior
+siguiente:
+    es: Siguiente
+    pt: Próximo
+por:
+    es: Por
+    pt: Por
+# x de x
+de:
+    es: de
+    pt: de
+escrito_por:
+    es: Escrito por
+    pt: Escrito por
+meses:
+  es:
+    - Enero
+    - Febrero
+    - Marzo
+    - Abril
+    - Mayo
+    - Junio
+    - Julio
+    - Agosto
+    - Septiembre
+    - Octubre
+    - Noviembre
+    - Diciembre
+  pt:
+    - Janeiro
+    - Fevereiro
+    - Março
+    - Abril
+    - Maio
+    - Junho
+    - Julho
+    - Agosto
+    - Setembro
+    - Outubro
+    - Novembro
+    - Dezembro

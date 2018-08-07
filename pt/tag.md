@@ -5,8 +5,8 @@ title: Ezteven blog
 description: Me gusta ver el mundo desde otras perspectivas.
 image: /assets/icons/favicon-96x96.png
 author: esteban_quezada
-lang: es
-permalink: /tag/
+lang: pt
+permalink: /pt/tag/
 
 ---
 

@@ -104,6 +104,18 @@ $body-text-color: #383f42 !default;
 .sp {
   padding: 25px;
 }
+.es:lang(es), .pt:lang(pt) {
+  font-weight: bold;
+}
+.black--text {
+  color: black;
+}
+.grey--text {
+  color: grey;
+}
+.fr {
+  float: right;
+}
 @media only screen and (max-width: 600px) {
   .post-row {
     padding-top: 10px;
