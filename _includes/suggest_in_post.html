@@ -12,8 +12,8 @@
               <div class="post-date">{{ post.categories }} · 
                 {% assign m = post.date | date: "%-m" | minus: 1 %}
                 {{ post.date | date: "%-d" }} 
-                de 
-                {{ site.data.es.months[m] }}
+                {{ site.data.i18n.de[page.lang] }} 
+                {{ site.data.i18n.meses[page.lang][m] }}
               </div>
               </a>
             </div>
