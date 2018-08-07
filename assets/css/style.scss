@@ -101,6 +101,9 @@ $body-text-color: #383f42 !default;
 .author-name {
   font-weight: bold;
 }
+.sp {
+  padding: 25px;
+}
 @media only screen and (max-width: 600px) {
   .post-row {
     padding-top: 10px;
@@ -112,5 +115,8 @@ $body-text-color: #383f42 !default;
   .post-col-left {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+  .sp {
+    padding: 15px;
   }
 }
