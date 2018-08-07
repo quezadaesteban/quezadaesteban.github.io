@@ -29,6 +29,9 @@ escrito_por:
 compartir:
     es: Compartir
     pt: Compartilhar
+articulos_relacionados:
+    es: Artículos relacionados
+    pt: Artigos relacionados
 meses:
   es:
     - Enero
