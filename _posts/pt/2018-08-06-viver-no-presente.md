@@ -2,10 +2,10 @@
 
 layout: post
 title: Viver no presente
-description: Hay mucho del presente que requiere de nuestra atención y dedicación para perder tanto tiempo en cosas que no podemos cambiar y que no han sucedido.
+description: Há muito do presente que precisa de nossa atenção e dedicação para perder o tempo nas coisas que não podemos mudar ou que tem acontecido.
 image: /assets/img/hourglass-time.jpeg
 categories: Personal
-tags: Reflexões
+tags: reflexões
 author: esteban_quezada
 lang: pt
 
@@ -15,21 +15,16 @@ lang: pt
 
 <img src="/assets/img/hourglass-time.jpeg" alt="Reloj de tiempo" width="100%"/>
 
-Me encontraba leyendo un libro llamado "La Cabaña" que trata sobre un padre  que sufre una tragedia familiar el cual luego en búsqueda de respuestas se encuentra con tres seres especiales que lo ayudan en ese proceso de encontrarse a sí mismo y reconciliarse con su pasado. 
-En una parte del libro, cuando Mack, el protagonista, se encontraba cerca de un lago conversando con uno de los seres especiales, este le hizo la siguiente pregunta que cito a continuación:
+Me encontraba lendo um livro chamado "A Cabana" que é sobre um pai que sofre um tragédia familiar que logo pesquisando respostas encontra três personagens especiais que o ajudam no processo de se encontrar a sim mesmo y conciliar seu passado. Numa parte do livro quando Mack, o protagonista, estava perto dum lago falando com um dos personagens especiais, este faz uma pergunta que cito aqui:
 
-> Pero ahora dime: ¿dónde pasas la mayor parte del tiempo en tu mente, en tu imaginación: en el presente, el pasado o el futuro? 
-> Mack pensó un momento antes de contestar: –Supongo que tendría que decir que paso muy poco tiempo en el presente. Paso gran parte en el pasado, aunque casi todo el tiempo restante trato de imaginar el futuro. 
-> –Como la mayoría de la gente…
+> Então me diz: onde você fica a maioria do tempo na sua mente, na sua imaginação: no presente, no passado ou no futuro? Mack pensou um tempo antes de responder: —Suponho que teria que dizer que levo pouco tempo no presente. Levo a maioria do tempo no passado, embora quase tudo o tempo restante tento imaginar o futuro. —Como a maioria da gente...
 
-Me sentí particularmente identificado con el sentir de Mack. Me hizo pensar si mis preocupaciones y mis expectativas se deben a que, en mi mente, paso mucho tiempo en el pasado o el futuro. Esto me hizo reflexionar en que no soy el único que piensan así.
-Entonces vino a mi mente, ¿que tan diferentes serían las cosas sí me enfocará más en el presente?, Si, confiara un poco más en el futuro y... Aprendiera mas no viviera en el pasado.
+Me senti identificado com o sentir de Mack. Me fiz pensar se minhas preocupações e minhas espectativas fossem porque, na minha mente, penso muito no passado ou no futuro. Isto me faz refletir que não sou o único que se acha assim. Então pensei, quão diferente ficariam as coisas se me focar mais no presente?, Se tivesse mais confiança no futuro e... Aprendesse mas não vivesse no passado.
 
-Mack era un hombre muy atribulado, el cual su triste pasado lo perseguía y no lo dejaba encontrar la felicidad. Pensar en su pasado y en aquellas cosas que no podía cambiar eran causantes de una _Gran tristeza_. Además de esto la incertidumbre de las cosas por venir no le permitían gozar del presente como quizás podía hacer.
+Mack era um homem muito atribulado, o qual seu triste passado o perseguia e não lhe deixava achar felicidade. Ficar pensando no seu passado e nas coisas que não podia mudar eram a causa de uma _Grande Tristeza_. Além disso a incertidumbre das coisas por vir não deixavam ele disfrutar del presente como pode ser que pudesse.
 
-¿Cuántos de nosotros nos encontramos en esa situación? Yo personalmente, me hallo en ese estado muchas veces y sé que ustedes también. ¿No se han puesto a pensar que muchos de los pensamientos que provocan ansiedad, temor, estrés e incertidumbre pueden ser causados por pensar en realidades que no han sucedido y que quizás no sucedan? Siento que vivir en el presente, enfocándonos en aquellas cosas que en realidad podemos manejar, nos podría ayudar a lidiar mejor con nuestras vidas y enfrentar con mejores bases el futuro.
-Pensar menos en el mañana y resolver el ahora puede resultar siendo mucho más efectivo y una mejor inversión de nuestro tiempo.
+Quantos de nós estamos nessa situação? Eu pessoalmente, estou nesse estado muitas vezes e sei que vocês também. Não acham que muitos dos pensamentos que causam ansiedade, temor, estresse e incertidumbre podem ser causados por pensar em realidades que não aconteceram e que pode ser que não aconteçam? Sinto que viver no presente, nos concentrando nas coisas que sim estão baixo nosso controle, poderia nos ajudar a lidar melhor com nossa vida e afrontar com melhores bases o futuro. Pensar menos no amanhã e consertar o agora pode ser muito mais efetivo além de ser uma melhor inversão de nosso tempo.
 
-En realidad el futuro aún no existe y no sabemos si estaremos ahí, sin embargo, estamos en este momento, vivos, en el presente. *Hay mucho del presente que requiere de nuestra atención y dedicación para perder tiempo en cosas que no podemos cambiar o que no han sucedido.*
+Na realidade o futuro não existe e não sabemos se vamos estar aí, Porém estamos neste momento vivos, no presente. _Há muito do presente que precisa de nossa atenção e dedicação para perder o tempo nas coisas que não podemos mudar ou que tem acontecido_.
 
-Espero que el consejo que le dieron a Mack de vivir el presente y tener más confianza en el futuro sea de ayuda a cada uno de nosotros y que nos permita llevar vidas más plenas.
+Espero que o conselho dito a Mack de viver no presente e ter mais confiança no futuro seja de ajuda para cada um de nós e que nos ajude a levar vidas mais plenas.
