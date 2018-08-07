@@ -8,7 +8,7 @@ lang: es
 
 ---
 
-<h2>{{ site.data.i18n.publicaciones[page.lang] }}<!-- | <a href="/" class="black--text es">es</a> · <a href="/pt/" class="grey--text pt">pt</a>--></h2>
+<h2>{{ site.data.i18n.publicaciones[page.lang] }} | <a href="/" class="black--text es">es</a> · <a href="/pt/" class="grey--text pt">pt</a></h2>
 <hr>
 <div>
   {% assign posts=site.posts | where:"lang", page.lang %}
