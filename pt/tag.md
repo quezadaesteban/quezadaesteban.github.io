@@ -1,8 +1,7 @@
 ---
 
 layout: default
-title: Ezteven blog
-description: Me gusta ver el mundo desde otras perspectivas.
+title: Tags
 image: /assets/icons/favicon-96x96.png
 author: esteban_quezada
 lang: pt
