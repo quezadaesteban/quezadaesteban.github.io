@@ -25,7 +25,7 @@ Contenido:
 
 Entre las tecnologías más interesantes de estos últimos años en lo que a desarrollo web se refiere, se encuentra la librería Express para crear servidores en nodejs y GraphQL, un lenguage de consulta para APIs que permite solicitar exactamente la información que se necesita de forma dinámica.
 
-Pueden interactuar con la ejecución de esta guía haciendo [click en este enlace](https://ez-gql-test.herokuapp.com/crea-un-servidor-express-con-graphql).
+Pueden interactuar con la ejecución de esta guía haciendo [click en este enlace](https://ez-playground.herokuapp.com/blog/crea-un-servidor-express-con-graphql).
 
 ## Prerrequisitos
 Para ejecutar y comprender mejor los pasos es necesario tener:
@@ -291,7 +291,7 @@ app.listen(port, () => console.log(`Servidor graphql corriendo en http://localho
 
 ## Ejecución
 
-Pueden interactuar con la ejecución de esta guía haciendo [click en este enlace](https://ez-gql-test.herokuapp.com/crea-un-servidor-express-con-graphql).
+Pueden interactuar con la ejecución de esta guía haciendo [click en este enlace](https://ez-playground.herokuapp.com/blog/crea-un-servidor-express-con-graphql).
 
 Para correr nuestro servidor ejecutamos el siguiente comando en la consola dentro del proyecto:
 
