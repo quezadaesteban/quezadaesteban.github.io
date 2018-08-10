@@ -7,11 +7,12 @@ author: esteban_quezada
 lang: es
 
 ---
-<h2>{{ site.data.i18n.publicaciones[page.lang] }}</h2>
+
+<h2>{{ site.data.i18n.publicaciones[page.lang] }} | <a href="/2/" class="black--text es">es</a> · <a href="/pt/" class="grey--text pt">pt</a></h2>
 <hr>
 <div>
   {% assign posts=site.posts | where:"lang", page.lang %}
-  {% for post in posts offset:5 limit:5 %}
+  {% for post in posts limit:5 offset:5 %}
     <div class="post-row">
       <div class="post-col-left">
         <a href="{{ post.url }}">
@@ -20,7 +21,7 @@ lang: es
           {% assign m = post.date | date: "%-m" | minus: 1 %}
           {{ post.date | date: "%-d" }} 
           de 
-          {{ site.data.es.months[m] }}
+          {{ site.data.i18n.meses[page.lang][m] }}
         </div>
         <div class="post-description">{{ post.description | truncatewords: 15 }}</div>
         </a>

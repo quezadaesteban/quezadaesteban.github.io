@@ -12,7 +12,7 @@ lang: pt
 <hr>
 <div>
   {% assign posts=site.posts | where:"lang", page.lang %}
-  {% for post in posts %}
+  {% for post in posts limit:10 %}
     <div class="post-row">
       <div class="post-col-left">
         <a href="{{ post.url }}">
