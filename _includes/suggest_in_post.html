@@ -1,29 +1,19 @@
-{% for tagx in page.tags %}
-  {% for tag in site.tags limit:1 %}
+{% for tagx in page.tags limit:1 %}
+  {% for tag in site.tags %}
     {% if tag[0] == tagx %}
       <h2>{{ site.data.i18n.articulos_relacionados[page.lang] }}</h2>
       {% for post in tag[1] limit: 5 %}
         {% if post.title != page.title %}
           <hr>
-          <div class="post-row">
-            <div class="post-col-left">
-              <a href="{{ post.url }}">
-              <div class="post-title">{{ post.title }}</div>
-              <div class="post-date">{{ post.categories }} · 
-                {% assign m = post.date | date: "%-m" | minus: 1 %}
-                {{ post.date | date: "%-d" }} 
-                {{ site.data.i18n.de[page.lang] }} 
-                {{ site.data.i18n.meses[page.lang][m] }}
-              </div>
-              </a>
-            </div>
-            <div class="post-col-right">
-              {% if post.image %}
-                <div class="post-image" style="background: url({{ post.image }}) 50% 50% no-repeat;">
-                </div>
-              {% endif %}
-            </div>
+          <a href="{{ post.url }}">
+          <div class="post-title">{{ post.title }}</div>
+          <div class="post-date">
+            {% assign m = post.date | date: "%-m" | minus: 1 %}
+            {{ post.date | date: "%-d" }} 
+            {{ site.data.i18n.de[page.lang] }} 
+            {{ site.data.i18n.meses[page.lang][m] }}
           </div>
+          </a>
         {% endif %}
       {% endfor %}
     {% endif %}
