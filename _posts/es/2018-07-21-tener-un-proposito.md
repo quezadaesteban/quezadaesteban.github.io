@@ -5,6 +5,7 @@ title: Tener un propósito
 description: Vamos a realizar algo para luego preguntarnos, Por qué estoy haciendo esto?”. No tener un propósito definido al llevar a cabo una tarea es una de las principales razones por la que procrastinamos y no cumplimos nuestros objetivos.
 image: /assets/img/road-nature-focus.jpg
 categories: Personal
+tags: reflexiones
 author: esteban_quezada
 lang: es
 
