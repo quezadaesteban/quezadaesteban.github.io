@@ -2,7 +2,7 @@
 
 layout: post
 title: Sirve aplicaciones web y archivos estáticos con Express
-description: Podemos configurar nuestro servidor Express para servir archivos estáticos como aplicaciones web hechas en Angular, ReactVue, imágenes o archivos.
+description: Podemos configurar nuestro servidor Express para servir archivos estáticos como aplicaciones web hechas en Angular, React, Vue, imágenes o archivos.
 image: /assets/img/media-grid.jpeg
 categories: Tech
 tags: code express javascript
