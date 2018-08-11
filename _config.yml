@@ -6,6 +6,10 @@ show_downloads: false
 google_analytics: UA-121844997-1
 plugins:
     - jekyll-feed
+algolia:
+    application_id: PW3NQ2E296
+    index_name: ezteven_blog
+    search_only_api_key: 804f8616e8041fa89a9f59194d021ba9
 # Author details.
 author:
     name: Esteban Quezada

@@ -32,6 +32,9 @@ compartir:
 articulos_relacionados:
     es: Relacionados
     pt: Relacionados
+buscar:
+    es: Buscar
+    pt: Pesquisar
 meses:
   es:
     - Enero

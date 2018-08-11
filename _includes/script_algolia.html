@@ -1,0 +1,57 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Instanciating InstantSearch.js with Algolia credentials
+    const search = instantsearch({
+      appId: '{{ site.algolia.application_id }}',
+      indexName: '{{ site.algolia.index_name }}',
+      apiKey: '{{ site.algolia.search_only_api_key }}',
+      searchFunction: function (helper) {
+        if (helper.state.query === '' || helper.state.query.length <= 2) {
+          return
+        }
+        helper.search()
+      }
+    });
+    
+    // Adding searchbar and results widgets
+    search.addWidget(
+      instantsearch.widgets.searchBox({
+        container: '#search-searchbar',
+        placeholder: '{{ site.data.i18n.buscar[page.lang] }}...',
+        poweredBy: true // This is required if you're on the free Community plan
+      })
+    );
+    search.addWidget(
+      instantsearch.widgets.hits({
+        container: '#search-hits',
+        templates: {
+          item: function (hit) {
+            return `
+            <hr>
+            <div class="post-row">
+              <div class="post-col-left">
+                <a href="{{ site.baseurl }}${hit.url}">
+                <div class="post-title">${hit.title}</div>
+                <div class="post-date">${hit.categories[0]}</div>
+                <div class="post-description">${hit.description.split(' ').slice(0, 15).join(' ')}...</div>
+                </a>
+              </div>
+              <div class="post-col-right">
+                ${hit.image ? `
+                  <div class="post-image" style="background: url({{ site.baseurl }}${hit.image}) 50% 50% no-repeat;">
+                  </div>
+                ` : `
+                  <div></div>
+                `}
+              </div>
+            </div>
+            `
+          }
+        }
+      })
+    );
+    
+    // Starting the search
+    search.start();
+  });
+  </script>

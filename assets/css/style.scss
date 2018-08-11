@@ -116,6 +116,10 @@ $body-text-color: #383f42 !default;
 .fr {
   float: right;
 }
+.search_icon {
+  float: right;
+  color: black;
+}
 @media only screen and (max-width: 600px) {
   .post-row {
     padding-top: 10px;
