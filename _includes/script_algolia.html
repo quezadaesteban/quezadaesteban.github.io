@@ -16,9 +16,10 @@
     // Adding searchbar and results widgets
     search.addWidget(
       instantsearch.widgets.searchBox({
+        reset: false,
         container: '#search-searchbar',
         placeholder: '{{ site.data.i18n.buscar[page.lang] }}...',
-        poweredBy: true // This is required if you're on the free Community plan
+        poweredBy: true
       })
     );
     search.addWidget(
