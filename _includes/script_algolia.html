@@ -31,9 +31,9 @@
             <div class="post-row">
               <div class="post-col-left">
                 <a href="{{ site.baseurl }}${hit.url}">
-                <div class="post-title">${hit.title}</div>
+                <div class="post-title">${hit._highlightResult.title.value}</div>
                 <div class="post-date">${hit.categories[0]}</div>
-                <div class="post-description">${hit.description.split(' ').slice(0, 15).join(' ')}...</div>
+                <div class="post-description">${hit._highlightResult.content.value}...</div>
                 </a>
               </div>
               <div class="post-col-right">

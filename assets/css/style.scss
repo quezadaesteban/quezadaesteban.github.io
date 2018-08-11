@@ -120,6 +120,15 @@ $body-text-color: #383f42 !default;
   float: right;
   color: black;
 }
+.post-title .ais-Highlight {
+  font-style: normal;
+  text-decoration: underline;
+}
+.post-description .ais-Highlight {
+  color: #111;
+  font-weight: bold;
+  font-style: normal;
+}
 @media only screen and (max-width: 600px) {
   .post-row {
     padding-top: 10px;
