@@ -13,9 +13,7 @@ lang: es
 
 # ¿Cómo llamar un API GraphQL con JavaScript?
 
-<p>
 <img class="thumbnail" src="/assets/img/mac-code-side.jpeg" alt="Express GraphQL home page" width="100%" />
-</p>
 
 Contenido:
 * [Axios](#axios)

@@ -13,7 +13,7 @@ lang: es
 ## Sirve aplicaciones web y archivos estáticos con Express
 Podemos configurar nuestro servidor Express para servir archivos estáticos como aplicaciones web hechas en Angular, React, Vue, imágenes o archivos.
 
-<img src="/assets/img/media-grid.jpeg" alt="Grid multimédiaEquilibrio" width="100%"/>
+<img src="/assets/img/media-grid.jpeg" alt="Grid multimédia" width="100%"/>
 
 Contenido:
 * [Creación del servidor](#creación-del-servidor)
