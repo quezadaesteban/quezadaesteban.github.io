@@ -35,6 +35,9 @@ articulos_relacionados:
 buscar:
     es: Buscar
     pt: Pesquisar
+compartir_por:
+    es: Compartir por
+    pt: Compartilhar pelo
 meses:
   es:
     - Enero
