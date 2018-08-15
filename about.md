@@ -10,7 +10,6 @@ permalink: /about.html
 ---
 
 ## Acerca de
-
 ---
 
 Ezteven blog es mantenido por mi persona, Esteban Quezada. Estudio en la Universidad Tecnológica de Panamá y me dedico al desarrollo de aplicaciones web y móviles para instituciones públicas y personas naturales.
