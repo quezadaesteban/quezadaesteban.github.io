@@ -104,7 +104,11 @@ $body-text-color: #383f42 !default;
 .sp {
   padding: 25px;
 }
+.es, .pt {
+  color: grey;
+}
 .es:lang(es), .pt:lang(pt) {
+  color: black;
   font-weight: bold;
 }
 .black--text {
@@ -128,6 +132,9 @@ $body-text-color: #383f42 !default;
   color: #111;
   font-weight: bold;
   font-style: normal;
+}
+.ais-search-box {
+  max-width: 100% !important;
 }
 @media only screen and (max-width: 600px) {
   .post-row {
