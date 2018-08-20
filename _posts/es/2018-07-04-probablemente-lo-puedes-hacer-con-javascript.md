@@ -21,13 +21,13 @@ Hay un lenguaje de programación que ha estado adquiriendo auge en los últimos 
 ## JavaScript
 Definido como un _lenguaje de programación de alto nivel e interpretado_. Es para muchos la herramienta por defecto para crear software.
 
-### Herramientas para desarrollo multiplataforma
+## Herramientas para desarrollo multiplataforma
 A continuación mencionaré y describiré __algunas herramientas existentes para desarrollar con JavaScript__ en casi cualquier plataforma.
 
-### Web
+## Web
 * [JavaScript](https://www.javascript.com/) es el único lenguage de programación utilizado en la web. Es decir, si quieres desarrollar aplicaciones web o dar funcionalidad añadida a tu sitio, no hay otra opción.
 
-### Dispositivos móviles
+## Dispositivos móviles
 <p align="center">
 <img src="/assets/img/nativescript-logo.png" alt="JavaScript" width="150px" />
 </p>
@@ -40,7 +40,7 @@ A continuación mencionaré y describiré __algunas herramientas existentes para
 
 * [ReactNative](https://facebook.github.io/react-native/) permite desarrollar aplicaciones móviles utilizando javascript y la librería [React](https://reactjs.org/). Es usado por aplicaciones como Uber, Instagram, entre otras.
  
-### Aplicaciones de escritorio
+## Aplicaciones de escritorio
 <p align="center">
 <img src="/assets/img/electron-logo.png" alt="ElectronJs" width="150px" />
 </p>

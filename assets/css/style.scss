@@ -5,6 +5,9 @@ $section-headings-color: #424242 !default;
 $header-bg-color-secondary: #2275c7 !default;
 $body-text-color: #383f42 !default;
 @import "{{ site.theme }}";
+html {
+  scroll-behavior: smooth;
+}
 .post-title {
   color: #424242;
   font-weight: bold;

@@ -17,16 +17,7 @@ Con el nuevo Vue CLI, podemos crear y administrar proyectos en VueJs con una int
 
 <img src="/assets/img/vue-ui-dashboard.png" alt="VueJs UI" width="100%"/>
 
-Contenido:
-
-* [Prerrequisitos](#prerrequisitos)
-* [Instalación](#instalación)
-* [Creación de una aplicación](#creación-de-una-aplicación)
-* [Plugins](#plugins)
-* [Dependencias](#dependencias)
-* [Ejecución](#ejecución)
-* [Misceláneos](#misceláneos)
-* [Conclusiones](#conclusiones)
+{% include toc.md %}
 
 Ahora que frameworks como Angular, React y Vue se han popularizado entre los desarrolladores frontend, es común encontrarnos usando la terminal para crear proyectos, instalar módulos de `npm` y manejar plugins y configuraciones que nuestra aplicación requiere. El nuevo `cli` de `vue` nos permite realizar estas mismas cosas a través de `vue ui`, un medio gráfico que se ejecuta en el navegador que nos posibilita administrar, actualizar y analizar nuestro proyecto a través de paneles, gráficos.
 
@@ -125,17 +116,17 @@ La página de la aplicación será similar a esta.
 <img src="/assets/img/vue-ui-app.png" alt="Aplicación vue" width="100%"/>
 
 ## Misceláneos
-### Importación de proyectos ya existentes
+## Importación de proyectos ya existentes
 Si ya tenemos proyectos creados con `vue init` , podemos importarlos también y administrarlos desde la interfaz de `vue cli`. Para eso en la pantalla principal de `vue ui` nos desplazamos a la pestaña de `Import` y seleccionamos el proyecto que deseamos importar.
 
 <img src="/assets/img/vue-ui-project-import.png" alt="Importación de proyecto" width="100%"/>
 
-### Pestaña de configuraciones
+## Pestaña de configuraciones
 En el panel derecho hay una pestaña llamada `Configuration`, esta nos da opciones ya más avanzadas para configurar nuestro proyecto. Entre esas opciones esta el folder donde se construirá el proyecto, las reglas de sintaxis que queremos sean requeridas en nuestro proyecto, entre otras opciones. Las configuraciones por defecto funcionan para la mayoría de proyectos.
 
 <img src="/assets/img/vue-ui-project-settings.png" alt="Configuraciones del proyecto" width="100%"/>
 
-### Tema oscuro
+## Tema oscuro
 En parte inferior de la página podemos cambiar el tema a tema oscuro. Para hacerlo solo debemos hacer click sobre el ícono de gotita.
 
 <p align="center">

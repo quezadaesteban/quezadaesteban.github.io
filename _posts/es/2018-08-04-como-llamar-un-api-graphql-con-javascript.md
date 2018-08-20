@@ -15,11 +15,7 @@ lang: es
 
 <img class="thumbnail" src="/assets/img/mac-code-side.jpeg" alt="Express GraphQL home page" width="100%" />
 
-Contenido:
-* [Axios](#axios)
-* [Fetch](#fetch)
-* [XMLHttpRequest](#xmlhttprequest)
-* [Misceláneos](#misceláneos)
+{% include toc.md %}
 
 Una vez tenemos un servidor con un API GraphQL funcionando, necesitamos una forma de acceder a esa información desde nuestra aplicación. A continuación les mostraré distintas formas de consultar un API GraphQL desde JavaScript.
 
@@ -27,7 +23,7 @@ Para las consultas usaremos las mismas `Query` que utilizamos en el post [Crea u
 
 Estaremos usando `back-tick`, es decir (\` \`) en vez de `(" ")` o `(' ')` para las cadenas ya que estas nos permiten colocar cadenas multilíneas en JavaScript.
 
-### Axios
+## Axios
 `Axios` es una librería para hacer consultas con ajax. Es popular por su simplicidad y su uso basado en `Promises` además de tener soporte para `async` y `await`.
 
 ```javascript
@@ -53,7 +49,7 @@ axios({
   .catch((err) => console.log(err))
 ```
 
-### Fetch
+## Fetch
 `Fetch` es una función nativa de JavaScript para hacer consultas ajax, sin embargo no tiene soporte en navegadores antiguos.
 
 ```javascript
@@ -74,7 +70,7 @@ fetch('http://localhost:4000/graphql', {
   .then(res => res.json())
   .then(res => console.log(res))
 ```
-### XMLHttpRequest
+## XMLHttpRequest
 Al igual que `fetch`, `XMLHttpRequest` es una función nativa de JavaScript, solo que a diferencia de `fetch` tiene mucho mejor soporte para navegadores más antiguos.
 
 ```javascript
@@ -101,7 +97,7 @@ xhr.onload = function () {
 
 xhr.send(JSON.stringify(query))
 ```
-### Misceláneos
+## Misceláneos
 Podemos crear funciones alrededor de estos métodos de consulta que nos permitan acortar código y nos eviten repetir lo mismo una y otra vez. Mostraré un ejemplo con axios.
 
 ```javascript

@@ -14,12 +14,7 @@ lang: es
 
 <img class="thumbnail" src="/assets/img/mac-code-hand.jpeg" alt="Express GraphQL home page" width="100%" />
 
-Contenido:
-* [Prerrequisitos](#prerrequisitos)
-* [Creación del proyecto](#creación-del-proyecto)
-* [Ejecución](#ejecución)
-* [Pruebas con GraphiQL](#pruebas-con-graphiql)
-* [Conclusiones](#conclusiones)
+{% include toc.md %}
 
 Entre las tecnologías más interesantes de estos últimos años en lo que a desarrollo web se refiere, se encuentra la librería Express para crear servidores en nodejs y GraphQL, un lenguage de consulta para APIs que permite solicitar exactamente la información que se necesita de forma dinámica.
 

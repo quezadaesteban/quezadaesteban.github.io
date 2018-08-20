@@ -26,7 +26,7 @@ El propósito de la creación de esta guía es estandarizar la forma de escribir
 Esta guía tiene ejemplos en JavaScript y PHP.
 
 # Comentarios
-### Reglas generales para la adición de comentarios.
+## Reglas generales para la adición de comentarios.
 > JavaScript
 
 ```javascript
@@ -43,7 +43,7 @@ Esta guía tiene ejemplos en JavaScript y PHP.
 let x = 'x' // dejar un espacio entre el fin de la sentencia y las barras '//'
 ```
 # Variables
-### Declaración de variables
+## Declaración de variables
 Al declarar variables, evitar dejar el valor inicial como `null`.
 Colocar un espacio entre `variable =` y su valor.
 > JavaScript
@@ -62,7 +62,7 @@ $cadena = '';       // variable inicializada como 'string'
 $numero = 0;        // variable inicializada como 'number'
 $arreglo = [];      // variable inicializada como 'array'
 ```
-### Operaciones sobre variables
+## Operaciones sobre variables
 Se recomienda dejar espacios entre operadores al realizar operaciones sobre variables.
 > JavaScript
 
@@ -172,7 +172,7 @@ if (is_bool($bool)) {
 }
 ```
 # Funciones
-### Declaración de funciones y llamado de funciones
+## Declaración de funciones y llamado de funciones
 Al declarar funciones se debe colocar un espacio entre la palabra clave `function`, el paréntesis `()` y la llave inicial `{`.
 
 Esto para diferenciar la declaración de un llamado de función.
@@ -206,7 +206,7 @@ function soyUnaFuncion () {
 // llamado de una función
 soyUnaFuncion();
 ```
-### Uso de funciones nativas del lenguage
+## Uso de funciones nativas del lenguage
 
 JavaScript considera un valor falso si es:
 * `false`
