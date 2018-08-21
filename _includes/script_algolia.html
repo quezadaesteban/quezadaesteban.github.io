@@ -13,6 +13,16 @@
       }
     });
     
+    // configuraciones
+    search.addWidget(
+      instantsearch.widgets.configure({
+        facets: ['lang'],
+        facetFilters: [
+          'lang:{{ page.lang }}'
+        ]
+      })
+    )
+
     // Adding searchbar and results widgets
     search.addWidget(
       instantsearch.widgets.searchBox({
