@@ -2,7 +2,7 @@
 
 layout: post
 title: Você não tem que ter a razão
-description: Quando falar con as pessoas, uma coisa que é de utilidade para nós é considerar que não temos que estar certo.
+description: Quando falar com as pessoas, uma coisa que é de utilidade para nós é considerar que não temos que estar certo.
 image: /assets/img/puffy-smile.jpeg
 categories: Personal
 tags: reflexões
