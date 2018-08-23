@@ -3,7 +3,8 @@
 layout: post
 title: Viver no presente
 description: Há muito do presente que precisa de nossa atenção e dedicação para perder o tempo nas coisas que não podemos mudar ou que tem acontecido.
-image: /assets/img/hourglass-time.jpeg
+image: /assets/img/desktop/hourglass-time.jpeg
+thumbnail: /assets/img/thumbnail/hourglass-time.jpg
 categories: Personal
 tags: reflexões
 author: esteban_quezada
@@ -13,7 +14,7 @@ lang: pt
 
 # Viver no presente
 
-<img src="/assets/img/hourglass-time.jpeg" alt="Reloj de tiempo" width="100%"/>
+<img src="/assets/img/desktop/hourglass-time.jpeg" alt="Reloj de tiempo" width="100%"/>
 
 Eu me encontrava lendo um livro chamado "A Cabana" que é sobre um pai que sofre uma tragédia familiar que logo pesquisando respostas encontra três personagens especiais que o ajudam no processo de encontrar a si mesmo e conciliar o seu passado. Numa parte do livro quando Mack, o protagonista, estava perto dum lago falando com um dos personagens especiais, este faz uma pergunta que cito eu aqui:
 

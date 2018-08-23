@@ -3,7 +3,8 @@
 layout: post
 title: No tienes el control
 description: Enfocarnos en las cosas sobre las cuales no tenemos control, hará que perdamos de vista aquellas que sí.
-image: /assets/img/cascade-peace.jpeg
+image: /assets/img/desktop/cascade-peace.jpeg
+thumbnail: /assets/img/thumbnail/cascade-peace.jpg
 categories: Personal
 tags: reflexiones
 author: esteban_quezada
@@ -14,7 +15,7 @@ lang: es
 
 Enfocarnos en las cosas sobre las cuales no tenemos control, hará que perdamos de vista aquellas que sí.
 
-<img src="/assets/img/cascade-peace.jpeg" alt="Cascada" width="100%"/>
+<img src="/assets/img/desktop/cascade-peace.jpeg" alt="Cascada" width="100%"/>
 
 Tratamos de cumplir con nuestras responsabilidades, ya sean laborales, universitarias, de colegio, etc., hacemos lo que podemos por quedar bien y que todo salga "como tenemos planeado". Sentimos estrés y frustración cuando las cosas no salen como queremos y quizás pensamos que hicimos algo mal o no nos esforzamos lo suficiente.
 

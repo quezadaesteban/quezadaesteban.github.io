@@ -3,7 +3,8 @@
 layout: post
 title: Crea un servidor Express con GraphQL
 description: Entre las tecnologías más interesantes de estos últimos años en lo que a desarrollo web se refiere, se encuentra la librería Express para crear servidores en nodejs y GraphQL, un lenguage de consulta para APIs que permite solicitar exactamente la información que se necesita de forma dinámica.
-image: /assets/img/mac-code-hand.jpeg
+image: /assets/img/desktop/mac-code-hand.jpeg
+thumbnail: /assets/img/thumbnail/mac-code-hand.jpg
 categories: Tech
 tags: code express graphql javascript
 author: esteban_quezada
@@ -12,7 +13,7 @@ lang: es
 ---
 # Crea un servidor Express con GraphQL
 
-<img class="thumbnail" src="/assets/img/mac-code-hand.jpeg" alt="Express GraphQL home page" width="100%" />
+<img class="thumbnail" src="/assets/img/desktop/mac-code-hand.jpeg" alt="Express GraphQL home page" width="100%" />
 
 {% include toc.md %}
 
@@ -294,36 +295,36 @@ $ node index.js
 
 Al navegar a [http://localhost:4000/graphql](http://localhost:4000/graphql), se les deberá mostrar la siguiente página:
 
-<img src="/assets/img/express-graphql-home.png" alt="Express GraphQL home page" width="100%" />
+<img src="/assets/img/desktop/express-graphql-home.png" alt="Express GraphQL home page" width="100%" />
 
 Tenemos acceso a un panel gráfico para interactuar con nuestro API ya que colocamos `graphiql: true` al crear el endpoint.
 
 ## Pruebas con GraphiQL
 Si colocamos `{ mensaje }` del lado derecho, el API debe mostrar el siguiente resultado:
 
-<img src="/assets/img/express-graphql-home-1.png" alt="Express GraphQL home page" width="100%" />
+<img src="/assets/img/desktop/express-graphql-home-1.png" alt="Express GraphQL home page" width="100%" />
 
 También podemos pasar parámetros a nuestras consulta, podemos por ejemplo, traer `persona` con `id: 1` y especificar que propiedades queremos obtener de la siguiente forma:
 
-<img src="/assets/img/express-graphql-home-2.png" alt="Express GraphQL home page" width="100%" />
+<img src="/assets/img/desktop/express-graphql-home-2.png" alt="Express GraphQL home page" width="100%" />
 
 Vemos que solo estamos mostrando las propiedades `id`, `nombre` y `hobbies`.
 
 Podemos también emplear el `Query` que creamos llamado `personas` que recibe una edad.
 
-<img src="/assets/img/express-graphql-home-3.png" alt="Express GraphQL home page" width="100%" />
+<img src="/assets/img/desktop/express-graphql-home-3.png" alt="Express GraphQL home page" width="100%" />
 
 Para ejecutar una mutación debemos primero definirla como tal, en este caso definimos una mutación llamada actualizarEdad y especificamos que debe tener `id` y `edad` de tipo `Int`. Veremos que luego de ejecutar la mutación la función que definimos retorna el objeto donde se puede ver la información de la edad modificada.
 
 Ahora cambiaremos la edad de `Carlos` de `21` años a  `18` ejecutando la mutación que creamos:
 
-<img src="/assets/img/express-graphql-home-4.png" alt="Express GraphQL home page" width="100%" />
+<img src="/assets/img/desktop/express-graphql-home-4.png" alt="Express GraphQL home page" width="100%" />
 
 Cabe señalar que como definimos una mutatición con variables `$id` y `$edad` es necesario definirlas en la parte de abajo donde dice `Query Variables`.
 
 Si consultamos nuevamente el query `personas` con edad `18` veremos que ahora `Carlos` aparecer en el listado:
 
-<img src="/assets/img/express-graphql-home-5.png" alt="Express GraphQL home page" width="100%" />
+<img src="/assets/img/desktop/express-graphql-home-5.png" alt="Express GraphQL home page" width="100%" />
 
 ## Conclusiones
 Con estos ejemplos vemos que GraphQL nos brinda un entorno gráfico donde podemos probar nuestros esquemas y procesos. Específicamente en nuestro caso logramos emplear diversos conceptos de GraphQL como son los esquemas, los métodos que resuelven los mismos y la configuración de estos en un servidor Express.

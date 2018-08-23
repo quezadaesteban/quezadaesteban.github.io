@@ -3,7 +3,8 @@
 layout: post
 title: Vivir en el presente
 description: Hay mucho del presente que requiere de nuestra atención y dedicación para perder tanto tiempo en cosas que no podemos cambiar y que no han sucedido.
-image: /assets/img/hourglass-time.jpeg
+image: /assets/img/desktop/hourglass-time.jpeg
+thumbnail: /assets/img/thumbnail/hourglass-time.jpg
 categories: Personal
 tags: reflexiones
 author: esteban_quezada
@@ -13,7 +14,7 @@ lang: es
 
 # Vivir en el presente
 
-<img src="/assets/img/hourglass-time.jpeg" alt="Reloj de tiempo" width="100%"/>
+<img src="/assets/img/desktop/hourglass-time.jpeg" alt="Reloj de tiempo" width="100%"/>
 
 Me encontraba leyendo un libro llamado "La Cabaña" que trata sobre un padre  que sufre una tragedia familiar el cual luego en búsqueda de respuestas se encuentra con tres seres especiales que lo ayudan en ese proceso de encontrarse a sí mismo y reconciliarse con su pasado. 
 En una parte del libro, cuando Mack, el protagonista, se encontraba cerca de un lago conversando con uno de los seres especiales, este le hizo la siguiente pregunta que cito a continuación:

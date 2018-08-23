@@ -3,7 +3,8 @@
 layout: post
 title: ES6 Promises para código asíncrono en JavaScript
 description: En JavaScript muchas acciones pueden ser asíncronas, pues son procesos que se pueden mantener en ejecución a la vez y no necesariamente se ejecutan secuencialmente con el resto del código.
-image: /assets/img/js-code.jpeg
+image: /assets/img/desktop/light-rays.jpg
+thumbnail: /assets/img/thumbnail/light-rays.jpg
 categories: Tech
 tags: code javascript
 author: esteban_quezada
@@ -14,11 +15,11 @@ published: false
 
 # ES6 Promises para código asíncrono en JavaScript
 
-<img src="/assets/img/js-code.jpeg" alt="Grid multimédia" width="100%"/>
+<img src="/assets/img/desktop/light-rays.jpg" alt="Rayos de luz" width="100%"/>
 
 En JavaScript muchas acciones pueden ser asíncronas, pues son procesos que se pueden mantener en ejecución a la vez y no necesariamente se ejecutan secuencialmente con el resto del código.
 
-Este comportamiento solía ser manejado através de callbacks, sin embargo, esto con el tiempo se volvía tedioso de mantener y la indentación del código se volvía cada vez más problemática entre más validaciones y procesos derivados se tuvierna que realizar. Esto dio paso a la introducción de las Promesas en JavaScript.
+Este comportamiento solía ser manejado através de callbacks, sin embargo, esto con el tiempo se volvía tedioso de mantener y la indentación del código se volvía cada vez más problemática entre más validaciones y procesos derivados se tuvieran que realizar. Esto dio paso a la introducción de las Promesas en JavaScript.
 
 {% include toc.md %}
 
@@ -32,7 +33,7 @@ Las funciones asíncronas incluyen acciones como lecturas de archivos, peticione
 
 ## Callbacks
 
-Los callbacks son código pasado a otro código a través de parámetros. Del último se espera que ejecute el código recibido después de un tiempo. En el caso de la función `setTimeout` que usaremos de ejemplo, recibe una función como parámetro que se ejecuta una vez culmina el periodo definido en milísegundos.
+Los callbacks son código pasado a otro código a través de parámetros. Del último se espera que ejecute el código recibido después de un tiempo. En el caso de la función `setTimeout` que usaremos de ejemplo, recibe una función como parámetro que se ejecuta una vez culmina el periodo definido en milisegundos.
 
 ```javascript
 let asincrono = function (cb) {
@@ -102,12 +103,12 @@ let datosDeServidor = function (url) {
   })
 }
 
-datosDeServidor(// url)
-  .then(function (response) {	// culminó petición
-    console.log(response)		// xhr.responseText
+datosDeServidor(/* url */)
+  .then(function (response) {   // culminó petición
+    console.log(response)       // xhr.responseText
   })
-  .catch(function (error) {		// error en la petición
-    console.log(error)			// xhr.statusText
+  .catch(function (error) {     // error en la petición
+    console.log(error)          // xhr.statusText
   })
 ```
 Vemos que se utiliza `then()` para el `resolve` y `catch()` para el `reject`.
@@ -115,7 +116,7 @@ Vemos que se utiliza `then()` para el `resolve` y `catch()` para el `reject`.
 Muchas de las librerías utilizadas en JavaScript y NodeJs soportan el uso de Promesas. Por ejemplo, `axios`, utilizada para hacer peticiones ajax esta basada en Promesas, por lo que su uso general es:
 
 ```javascript
-axios({ // opciones })
+axios({ /* opciones */ })
   .then(function (response) { // petición exitosa
 	console.log(response)
   })
@@ -129,9 +130,9 @@ axios({ // opciones })
 
 ```javascript
 Promise.all([
-  datosDeServidor(// url de servidor x),
-  datosDeServidor(// url de servidor y),
-  datosDeServidor(// url de servidor z)
+  datosDeServidor(/* url de servidor x */),
+  datosDeServidor(/* url de servidor y */),
+  datosDeServidor(/* url de servidor z */)
 ])
   .then(function (resultados) {
 	console.log(resultados[0]) // respuesta de servidor x

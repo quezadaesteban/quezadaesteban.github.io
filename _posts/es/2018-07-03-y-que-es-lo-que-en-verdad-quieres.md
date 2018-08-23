@@ -3,7 +3,8 @@
 layout: post
 title: Y...¿Qué es lo que en verdad quieres?
 description: La línea entre hacer lo que queremos y lo que debemos suele ser muy delgada.
-image: /assets/img/balance-rock.jpeg
+image: /assets/img/desktop/balance-rock.jpeg
+thumbnail: /assets/img/thumbnail/balance-rock.jpg
 categories: Personal
 tags: reflexiones
 author: esteban_quezada
@@ -15,7 +16,7 @@ lang: es
 
 La línea entre hacer lo que queremos y lo que debemos suele ser muy delgada.
 
-<img src="/assets/img/balance-rock.jpeg" alt="Equilibrio" width="100%"/>
+<img src="/assets/img/desktop/balance-rock.jpeg" alt="Equilibrio" width="100%"/>
 
 Me examino a mí mismo, para darme cuenta que gran parte de las veces hago lo que los demás esperan que haga y no lo que en 
 verdad deseo. No porque lo que desee sea inferior o conflictivo, sino porque hacer lo que se espera de cada uno de nosotros 

@@ -12,8 +12,8 @@
     </a>
   </div>
   <div class="post-col-right">
-    {% if post.image %}
-      <div class="post-image" style="background: url({{ post.image }}) 50% 50% no-repeat;">
+    {% if post.thumbnail %}
+      <div class="post-image" style="background: url({{ post.thumbnail }}) 50% 50% no-repeat;">
       </div>
     {% endif %}
   </div>

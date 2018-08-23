@@ -3,7 +3,8 @@
 layout: post
 title: Escribe código más legible con los siguientes consejos
 description: Cuando el programa está escrito solo por nosotros, es relativamente fácil comprenderlo porque nosotros mismos nos "entendemos".
-image: /assets/img/mac-clean.jpeg
+image: /assets/img/desktop/mac-clean.jpeg
+thumbnail: /assets/img/thumbnail/mac-clean.jpg
 categories: Tech
 tags: code javascript php eslint
 author: esteban_quezada
@@ -15,7 +16,7 @@ lang: es
 
 Cuando el programa está escrito solo por nosotros, es relativamente fácil comprenderlo porque nosotros mismos nos **"entendemos"**.
 
-<img src="/assets/img/mac-clean.jpeg" alt="Equilibrio" width="100%"/>
+<img src="/assets/img/desktop/mac-clean.jpeg" alt="Equilibrio" width="100%"/>
 
 Pero resulta que la mayoría de los programas que hagas quizás los realices con otras personas. Y aún si lo haces solo, no sería bueno que los demás lo pudieran entender?
 

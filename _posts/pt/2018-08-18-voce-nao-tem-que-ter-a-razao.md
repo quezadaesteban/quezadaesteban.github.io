@@ -3,7 +3,8 @@
 layout: post
 title: Você não tem que ter a razão
 description: Quando falar com as pessoas, uma coisa que é de utilidade para nós é considerar que não temos que estar certo.
-image: /assets/img/puffy-smile.jpeg
+image: /assets/img/desktop/puffy-smile.jpeg
+thumbnail: /assets/img/thumbnail/puffy-smile.jpg
 categories: Personal
 tags: reflexões
 author: esteban_quezada
@@ -14,7 +15,7 @@ lang: pt
 # Você não tem que ter a razão
 > Queremos ser escutados mas não sabemos escutar.
 
-<img class="thumbnail" src="/assets/img/puffy-smile.jpeg" alt="Smile" width="100%" />
+<img class="thumbnail" src="/assets/img/desktop/puffy-smile.jpeg" alt="Smile" width="100%" />
 
 Quando falar com as pessoas, uma coisa que é de utilidade para nós é considerar que _não temos que estar certo_. ¿Quem gostaria de falar com alguém que acha que sempre tem a razão? Nos comunicar com os outros nos ajuda a expandir nossa visão das coisas, comunicar nossos pontos de vista, corrigir e ser corrigidos.
 
