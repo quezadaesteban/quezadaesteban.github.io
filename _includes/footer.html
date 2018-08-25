@@ -1,5 +1,15 @@
-<footer class="site-footer">
-  <span class="site-footer-owner">
-    <a href="{{ site.url }}{{ site.data.i18n.url_prefix[page.lang] }}">{{ site.data.i18n.title[page.lang] }}</a> &#169; <span id="year"></span> | <a href="{{ site.data.i18n.url_prefix[page.lang] }}/privacypolicy.html">Privacy Policy</a><br>{{ site.data.i18n.por[page.lang] }} <a href="{{ site.data.i18n.url_prefix[page.lang] }}/about.html">{{ site.author.name }}</a>
-  </span>
+<footer>
+  <div class="flex flex-column">
+    <div class="flex flex-center">
+    {% include social_bar.html %}
+    </div>
+    <div class="flex flex-center">
+      <a href="{{ site.url }}{{ site.data.i18n.url_prefix[page.lang] }}">{{ site.data.i18n.inicio[page.lang] }}</a>&nbsp;|&nbsp;
+      <a href="{{ site.data.i18n.url_prefix[page.lang] }}/about.html">{{ site.data.i18n.acerca_de[page.lang] }}</a>&nbsp;|&nbsp;
+      <a href="{{ site.data.i18n.url_prefix[page.lang] }}/privacypolicy.html">Privacy Policy</a>
+    </div>
+    <div class="flex flex-center">
+      <a href="{{ site.url }}{{ site.data.i18n.url_prefix[page.lang] }}">{{ site.data.i18n.title[page.lang] }}</a>&nbsp;&#169;&nbsp;<span id="year"></span>
+    </div>
+  </div>
 </footer>
