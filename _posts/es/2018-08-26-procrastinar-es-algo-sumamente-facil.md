@@ -9,7 +9,7 @@ categories: Personal
 tags: reflexiones
 author: esteban_quezada
 lang: es
-published: false
+new: true
 
 ---
 
