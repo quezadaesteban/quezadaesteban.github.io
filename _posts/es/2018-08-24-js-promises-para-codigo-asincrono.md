@@ -33,7 +33,9 @@ Las funciones asíncronas incluyen acciones como lecturas de archivos, peticione
 
 ## Callbacks
 
-Los callbacks son funciones enviadas como parámetros a otra función. Del último se espera que ejecute el código recibido después de un tiempo. En el caso de la función `setTimeout` que usaremos de ejemplo, recibe una función como parámetro que se ejecuta una vez culmina el periodo definido en milisegundos.
+Los callbacks son funciones enviadas como parámetros a otra función. De la última se espera que ejecute el código recibido después de un tiempo.
+
+En el caso de la función `setTimeout` que usaremos de ejemplo, recibe una función como parámetro que se ejecuta una vez culmina el periodo definido en milisegundos.
 
 ```javascript
 let asincrono = function (cb) {
