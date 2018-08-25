@@ -139,7 +139,19 @@ html {
 .ais-search-box {
   max-width: 100% !important;
 }
+.new_tag {
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 5px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #2275c7, #00b5a8)
+}
 @media only screen and (max-width: 600px) {
+  .new_tag {
+    margin-left: 0px;
+  }
   .post-row {
     padding-top: 10px;
     padding-bottom: 10px;

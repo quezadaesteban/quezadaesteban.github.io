@@ -38,6 +38,9 @@ buscar:
 compartir_por:
     es: Compartir por
     pt: Compartilhar pelo
+new:
+    es: Nuevo
+    pt: Novo
 meses:
   es:
     - Enero

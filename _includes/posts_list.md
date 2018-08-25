@@ -1,7 +1,11 @@
 <div class="post-row">
   <div class="post-col-left">
     <a href="{{ post.url }}">
-    <div class="post-title">{{ post.title }}</div>
+    <div class="post-title">{{ post.title }}
+    {% if post.new == true %}
+    <span class="new_tag">{{ site.data.i18n.new[page.lang] }}</span>
+    {% endif %}
+    </div>
     <div class="post-date">{{ post.categories }} · 
       {% assign m = post.date | date: "%-m" | minus: 1 %}
       {{ post.date | date: "%-d" }} 
