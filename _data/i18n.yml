@@ -41,6 +41,18 @@ compartir_por:
 new:
     es: Nuevo
     pt: Novo
+subscribe:
+    es: Subscribirse
+    pt: Inscreva-se
+acerca_de:
+    es: Acerca de
+    pt: Sobre
+inicio:
+    es: Inicio
+    pt: Início
+ir_home:
+    es: Ir a la página principal
+    pt: Ir à página principal
 meses:
   es:
     - Enero
