@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: ES6 Promises para código asíncrono en JavaScript
+title: Tareas asíncronas con Promises en JavaScript
 description: En JavaScript muchas acciones pueden ser asíncronas, pues son procesos que se pueden mantener en ejecución a la vez y no necesariamente se ejecutan secuencialmente con el resto del código.
 image: /assets/img/desktop/light-rays.jpg
 thumbnail: /assets/img/thumbnail/light-rays.jpg
@@ -12,17 +12,17 @@ lang: es
 
 ---
 
-# ES6 Promises para código asíncrono en JavaScript
+# Tareas asíncronas con Promises en JavaScript
 
 <img src="/assets/img/desktop/light-rays.jpg" alt="Rayos de luz" width="100%"/>
 
-En JavaScript muchas acciones pueden ser asíncronas, pues son procesos que se pueden mantener en ejecución a la vez y no necesariamente se ejecutan secuencialmente con el resto del código.
+## Introducción
 
-Este comportamiento solía ser manejado através de callbacks, sin embargo, esto con el tiempo se volvía tedioso de mantener y la indentación del código se volvía cada vez más problemática entre más validaciones y procesos derivados se tuvieran que realizar. Esto dio paso a la introducción de las Promesas en JavaScript.
+En JavaScript muchas tareas pueden ser asíncronas, pues son procesos que se pueden mantener en ejecución a la vez y no necesariamente se ejecutan secuencialmente con el resto del código.
+
+Este comportamiento solía ser manejado a través de callbacks, sin embargo, esto con el tiempo se volvía tedioso de mantener y la indentación del código se volvía cada vez más problemática entre más validaciones y procesos derivados se tuvieran que realizar. Esto dio paso a la introducción de las Promesas en JavaScript.
 
 {% include toc.md %}
-
-## Introducción
 
 Las Promesas de JavaScript fueron introducidas con ECMAScript 6, y trajeron al lenguaje una forma más concisa de trabajar con funciones asíncronas.
 
@@ -32,7 +32,7 @@ Las funciones asíncronas incluyen acciones como lecturas de archivos, peticione
 
 ## Callbacks
 
-Los callbacks son código pasado a otro código a través de parámetros. Del último se espera que ejecute el código recibido después de un tiempo. En el caso de la función `setTimeout` que usaremos de ejemplo, recibe una función como parámetro que se ejecuta una vez culmina el periodo definido en milisegundos.
+Los callbacks son funciones enviadas como parámetros a otra función. Del último se espera que ejecute el código recibido después de un tiempo. En el caso de la función `setTimeout` que usaremos de ejemplo, recibe una función como parámetro que se ejecuta una vez culmina el periodo definido en milisegundos.
 
 ```javascript
 let asincrono = function (cb) {
