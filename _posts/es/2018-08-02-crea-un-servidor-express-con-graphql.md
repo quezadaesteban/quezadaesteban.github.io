@@ -9,6 +9,7 @@ categories: Tech
 tags: code express graphql javascript
 author: esteban_quezada
 lang: es
+ads: true
 
 ---
 # Crea un servidor Express con GraphQL
