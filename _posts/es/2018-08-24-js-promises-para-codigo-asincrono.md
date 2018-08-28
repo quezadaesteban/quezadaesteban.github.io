@@ -9,7 +9,6 @@ categories: Tech
 tags: code javascript
 author: esteban_quezada
 lang: es
-new: true
 
 ---
 

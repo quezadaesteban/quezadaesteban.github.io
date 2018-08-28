@@ -2,7 +2,7 @@
   <div class="post-col-left">
     <a href="{{ post.url }}">
     <div class="post-title">{{ post.title }}
-    {% if post.new == true %}
+    {% if post.new_tag == true %}
     <span class="new_tag">{{ site.data.i18n.new[page.lang] }}</span>
     {% endif %}
     </div>
