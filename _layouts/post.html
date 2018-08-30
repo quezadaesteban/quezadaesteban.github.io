@@ -41,6 +41,10 @@
     {% include share-bar.html %}
     <div class="sp"></div>
     {% include suggest_in_post.html %}
+    {% if page.comments == true %}
+    <hr>
+    {% include disqus.html %}
+    {% endif %}
   </main>
   {% include footer.html %}
 </body>
