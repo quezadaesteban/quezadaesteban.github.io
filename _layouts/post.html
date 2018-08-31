@@ -41,7 +41,7 @@
     {% include share-bar.html %}
     <div class="sp"></div>
     {% include suggest_in_post.html %}
-    {% if page.comments == true %}
+    {% if page.comments == true and jekyll.environment == "production" %}
     <hr>
     {% include disqus.html %}
     {% endif %}
