@@ -10,6 +10,7 @@ tags: code vue javascript development
 author: esteban_quezada
 lang: es
 ads: true
+comments: true
 
 ---
 
