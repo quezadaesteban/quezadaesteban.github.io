@@ -4,7 +4,7 @@ title: ¿Qué es async await en JavaScript?
 description: Las funciones asíncronas llegaron a JavaScript como un medio para simplificar los procesos asíncronos anidados.
 image: /assets/img/desktop/glass-spiral.jpeg
 thumbnail: /assets/img/thumbnail/glass-spiral.jpg
-categories: Personal
+categories: Tech
 tags: code javascript
 author: esteban_quezada
 lang: es
