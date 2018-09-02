@@ -110,10 +110,10 @@ html {
 .sp {
   padding: 25px;
 }
-.es, .pt {
+.es, .pt, .en {
   color: grey;
 }
-.es:lang(es), .pt:lang(pt) {
+.es:lang(es), .pt:lang(pt), .en:lang(en) {
   color: black;
   font-weight: bold;
 }
