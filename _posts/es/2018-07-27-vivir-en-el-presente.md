@@ -19,12 +19,14 @@ lang: es
 Me encontraba leyendo un libro llamado "La Cabaña" que trata sobre un padre  que sufre una tragedia familiar el cual luego en búsqueda de respuestas se encuentra con tres seres especiales que lo ayudan en ese proceso de encontrarse a sí mismo y reconciliarse con su pasado. 
 En una parte del libro, cuando Mack, el protagonista, se encontraba cerca de un lago conversando con uno de los seres especiales, este le hizo la siguiente pregunta que cito a continuación:
 
-> Pero ahora dime: ¿dónde pasas la mayor parte del tiempo en tu mente, en tu imaginación: en el presente, el pasado o el futuro? 
-> Mack pensó un momento antes de contestar: –Supongo que tendría que decir que paso muy poco tiempo en el presente. Paso gran parte en el pasado, aunque casi todo el tiempo restante trato de imaginar el futuro. 
+> Pero ahora dime: ¿dónde pasas la mayor parte del tiempo en tu mente, en tu imaginación: en el presente, el pasado o el futuro?
+
+> Mack pensó un momento antes de contestar: –Supongo que tendría que decir que paso muy poco tiempo en el presente. Paso gran parte en el pasado, aunque casi todo el tiempo restante trato de imaginar el futuro.
+
 > –Como la mayoría de la gente…
 
 Me sentí particularmente identificado con el sentir de Mack. Me hizo pensar si mis preocupaciones y mis expectativas se deben a que, en mi mente, paso mucho tiempo en el pasado o el futuro. Esto me hizo reflexionar en que no soy el único que piensan así.
-Entonces vino a mi mente, ¿que tan diferentes serían las cosas sí me enfocará más en el presente?, Si, confiara un poco más en el futuro y... Aprendiera mas no viviera en el pasado.
+Entonces vino a mi mente, ¿que tan diferentes serían las cosas sí me enfocará más en el presente?, Si confiara un poco más en el futuro y... Aprendiera, mas no viviera en el pasado.
 
 Mack era un hombre muy atribulado, el cual su triste pasado lo perseguía y no lo dejaba encontrar la felicidad. Pensar en su pasado y en aquellas cosas que no podía cambiar eran causantes de una _Gran tristeza_. Además de esto la incertidumbre de las cosas por venir no le permitían gozar del presente como quizás podía hacer.
 

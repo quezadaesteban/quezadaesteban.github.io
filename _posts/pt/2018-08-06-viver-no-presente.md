@@ -18,7 +18,11 @@ lang: pt
 
 Eu me encontrava lendo um livro chamado "A Cabana" que é sobre um pai que sofre uma tragédia familiar que logo pesquisando respostas encontra três personagens especiais que o ajudam no processo de encontrar a si mesmo e conciliar o seu passado. Numa parte do livro quando Mack, o protagonista, estava perto dum lago falando com um dos personagens especiais, este faz uma pergunta que cito eu aqui:
 
-> Então me diz: onde você fica a maioria do tempo na sua mente, na sua imaginação: no presente, no passado ou no futuro? Mack pensou um tempo antes de responder: —Suponho que teria que dizer que levo pouco tempo no presente. Levo a maioria do tempo no passado, embora quase tudo o tempo restante tento imaginar o futuro. —Como a maioria da gente...
+> Então me diz: onde você fica a maioria do tempo na sua mente, na sua imaginação: no presente, no passado ou no futuro?
+
+> Mack pensou um tempo antes de responder: —Suponho que teria que dizer que levo pouco tempo no presente. Levo a maioria do tempo no passado, embora quase tudo o tempo restante tento imaginar o futuro.
+
+> —Como a maioria da gente...
 
 Me senti identificado com o sentir de Mack. Me fiz pensar se minhas preocupações e minhas espectativas fossem porque, na minha mente, penso muito no passado ou no futuro. Isto me faz refletir que não sou o único que se acha assim. Então pensei, quão diferente ficariam as coisas se me focar mais no presente?, Se eu tivesse mais confiança no futuro e... Aprendesse mas não vivesse no passado.
 
