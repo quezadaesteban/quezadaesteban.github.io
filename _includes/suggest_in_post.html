@@ -9,9 +9,9 @@
           <div class="post-title">{{ post.title }}</div>
           <div class="post-date">
             {% assign m = post.date | date: "%-m" | minus: 1 %}
-            {{ post.date | date: "%-d" }} 
-            {{ site.data.i18n.de[page.lang] }} 
             {{ site.data.i18n.meses[page.lang][m] }}
+             · 
+            {{ post.date | date: "%-d" }} 
           </div>
           </a>
         {% endif %}

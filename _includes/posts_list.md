@@ -6,11 +6,11 @@
     <span class="new_tag">{{ site.data.i18n.new[page.lang] }}</span>
     {% endif %}
     </div>
-    <div class="post-date">{{ post.categories }} · 
+    <div class="post-date">{{ post.categories }} | 
       {% assign m = post.date | date: "%-m" | minus: 1 %}
-      {{ post.date | date: "%-d" }} 
-      de 
       {{ site.data.i18n.meses[page.lang][m] }}
+       · 
+      {{ post.date | date: "%-d" }}
     </div>
     <div class="post-description">{{ post.description | truncatewords: 15 }}</div>
     </a>

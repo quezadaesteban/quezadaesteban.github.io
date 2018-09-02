@@ -22,11 +22,11 @@
               {{ site.data.i18n.escrito_por[page.lang] }} <span class="author-name">{{ author.name }}</span>
           </span>
           <span>
-            · 
+            |  
             {% assign m = page.date | date: "%-m" | minus: 1 %}
-            {{ page.date | date: "%-d" }} 
-            {{ site.data.i18n.de[page.lang] }} 
             {{ site.data.i18n.meses[page.lang][m] }}
+            · 
+            {{ page.date | date: "%-d" }}
           </span>
         </div>
       {% endif %}
