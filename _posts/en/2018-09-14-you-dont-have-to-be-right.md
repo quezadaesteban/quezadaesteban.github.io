@@ -9,6 +9,7 @@ categories: Personal
 tags: thoughts
 author: esteban_quezada
 lang: en
+published: false
 
 ---
 
