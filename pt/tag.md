@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: Tags
+title: Tag
 image: /assets/icons/favicon-96x96.png
 author: esteban_quezada
 lang: pt
@@ -9,7 +9,7 @@ permalink: /pt/tag/
 
 ---
 
-## Etiquetas
+## Tag
 ---
 
 {% for tag in site.tags %}
