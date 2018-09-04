@@ -5,7 +5,7 @@ title: Viver no presente
 description: Há muito do presente que precisa de nossa atenção e dedicação para perder o tempo nas coisas que não podemos mudar ou que tem acontecido.
 image: /assets/img/desktop/hourglass-time.jpeg
 thumbnail: /assets/img/thumbnail/hourglass-time.jpg
-categories: Personal
+categories: Pessoal
 tags: reflexões
 author: esteban_quezada
 lang: pt
@@ -28,7 +28,7 @@ Me senti identificado com o sentir de Mack. Me fiz pensar se minhas preocupaçõ
 
 Mack era um homem muito atribulado, o qual seu triste passado o perseguia e não lhe deixava achar felicidade. Ficar pensando no seu passado e nas coisas que não podia mudar eram a causa de uma _Grande Tristeza_. Além disso a incertidumbre das coisas por vir não deixavam ele desfrutar do presente como pode ser que pudesse.
 
-Quantos de nós estamos nessa situação? Eu pessoalmente, estou nesse estado muitas vezes e sei que vocês também. Não acham que muitos dos pensamentos que causam ansiedade, temor, estresse e incertidumbre podem ser causados por pensar em realidades que não aconteceram e que pode ser que não aconteçam? Sinto que viver no presente, nos concentrando nas coisas que sim estão sob nosso controle, poderia nos ajudar a lidar melhor com nossa vida e afrontar com melhores bases o futuro. Pensar menos no amanhã e consertar o agora pode ser muito mais efetivo além de ser uma melhor inversão do nosso tempo.
+Quantos de nós estamos nessa situação? Eu pessoalmente, estou nesse estado muitas vezes e sei que vocês também. Não acham que muitos dos Pessoal que causam ansiedade, temor, estresse e incertidumbre podem ser causados por pensar em realidades que não aconteceram e que pode ser que não aconteçam? Sinto que viver no presente, nos concentrando nas coisas que sim estão sob nosso controle, poderia nos ajudar a lidar melhor com nossa vida e afrontar com melhores bases o futuro. Pensar menos no amanhã e consertar o agora pode ser muito mais efetivo além de ser uma melhor inversão do nosso tempo.
 
 Na realidade o futuro não existe e não sabemos se vamos estar aí, Porém estamos neste momento vivos, no presente. _Há muito do presente que precisa de nossa atenção e dedicação para perder o tempo nas coisas que não podemos mudar ou que tem acontecido_.
 

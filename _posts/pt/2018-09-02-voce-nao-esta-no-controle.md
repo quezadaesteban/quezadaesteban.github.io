@@ -5,7 +5,7 @@ title: Você não está no controle
 description: Concentrar-nos nas coisas que não temos controle nos fará perder de vista as que sim.
 image: /assets/img/desktop/cascade-peace.jpeg
 thumbnail: /assets/img/thumbnail/cascade-peace.jpg
-categories: Personal
+categories: Pessoal
 tags: reflexões
 author: esteban_quezada
 lang: pt
