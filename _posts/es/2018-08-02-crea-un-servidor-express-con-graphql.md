@@ -9,7 +9,7 @@ categories: Tech
 tags: code express graphql javascript
 author: esteban_quezada
 lang: es
-ads: true
+ads: false
 comments: true
 
 ---
@@ -83,6 +83,17 @@ Luego de esto instalamos las dependencias que vamos a necesitar con el siguiente
 ```bash
 $ npm install --save express graphql express-graphql
 ```
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4267778268611870"
+     data-ad-slot="2724149071"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Una vez las dependencias estén instaladas, procedemos a crear el archivo principal que vamos a usar con el nombre de `index.js`.
 
