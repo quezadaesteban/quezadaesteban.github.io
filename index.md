@@ -17,5 +17,5 @@ lang: es
 </div>
 <div class="pagination">
     <span class="paginate-btn">{{ site.data.i18n.anterior[page.lang] }}</span>
-    <span class="paginate-btn"><a href="/2">{{ site.data.i18n.siguiente[page.lang] }}</a></span>
+    <span class="paginate-btn"><a href="/page/2/">{{ site.data.i18n.siguiente[page.lang] }}</a></span>
 </div>
