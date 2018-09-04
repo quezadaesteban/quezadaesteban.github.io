@@ -22,7 +22,7 @@ comments: true
 
 Una vez tenemos un servidor con un API GraphQL funcionando, necesitamos una forma de acceder a esa información desde nuestra aplicación. A continuación les mostraré distintas formas de consultar un API GraphQL desde JavaScript.
 
-Para las consultas usaremos las mismas `Query` que utilizamos en el post [Crea un servidor Express con GraphQL](https://blog.ezteven.com/tech/2018/08/02/crea-un-servidor-express-con-graphql.html). Las pruebas se encuentran en la sección [Pruebas con GraphiQL](https://blog.ezteven.com/tech/2018/08/02/crea-un-servidor-express-con-graphql.html#pruebas-con-graphiql) de ese post.
+Para las consultas usaremos las mismas `Query` que utilizamos en el post [Crea un servidor Express con GraphQL]({{ site.url }}/tech/2018/08/02/crea-un-servidor-express-con-graphql.html). Las pruebas se encuentran en la sección [Pruebas con GraphiQL]({{ site.url }}/tech/2018/08/02/crea-un-servidor-express-con-graphql.html#pruebas-con-graphiql) de ese post.
 
 Estaremos usando `back-tick`, es decir (\` \`) en vez de `(" ")` o `(' ')` para las cadenas ya que estas nos permiten colocar cadenas multilíneas en JavaScript.
 

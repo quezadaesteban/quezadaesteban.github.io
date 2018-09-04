@@ -22,7 +22,7 @@ comments: true
 
 ## Introducción
 
-Las funciones asíncronas utilizan la sintaxis `async` y `await` para esperar que una promesa sea resuelta. Para comprender mejor este artículo es recomendable conocer cómo funcionan las promesas. [Pueden conocer sobre las mismas aquí](https://blog.ezteven.com/tech/2018/08/24/js-promises-para-codigo-asincrono.html).
+Las funciones asíncronas utilizan la sintaxis `async` y `await` para esperar que una promesa sea resuelta. Para comprender mejor este artículo es recomendable conocer cómo funcionan las promesas. [Pueden conocer sobre las mismas aquí]({{ site.url }}/tech/2018/08/24/js-promises-para-codigo-asincrono.html).
 
 ## Callback hell
 
