@@ -10,7 +10,6 @@ tags: code express graphql javascript
 author: esteban_quezada
 lang: es
 ads: true
-comments: true
 
 ---
 # Crea un servidor Express con GraphQL

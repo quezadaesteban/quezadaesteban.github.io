@@ -10,7 +10,6 @@ tags: code javascript php eslint
 author: esteban_quezada
 lang: es
 ads: true
-comments: true
 
 ---
 

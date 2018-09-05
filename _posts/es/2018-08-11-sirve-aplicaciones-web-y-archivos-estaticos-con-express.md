@@ -10,7 +10,6 @@ tags: code express javascript
 author: esteban_quezada
 lang: es
 ads: true
-comments: true
 
 ---
 # Sirve aplicaciones web y archivos estáticos con Express
