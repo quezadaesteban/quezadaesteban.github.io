@@ -65,6 +65,9 @@ $cadena = '';       // variable inicializada como 'string'
 $numero = 0;        // variable inicializada como 'number'
 $arreglo = [];      // variable inicializada como 'array'
 ```
+
+{% include in-article-ad.html %}
+
 ## Operaciones sobre variables
 Se recomienda dejar espacios entre operadores al realizar operaciones sobre variables.
 > JavaScript
@@ -174,6 +177,10 @@ if (is_bool($bool)) {
   // validación exitosa
 }
 ```
+
+{% include in-article-ad.html %}
+
+
 # Funciones
 ## Declaración de funciones y llamado de funciones
 Al declarar funciones se debe colocar un espacio entre la palabra clave `function`, el paréntesis `()` y la llave inicial `{`.

@@ -86,6 +86,8 @@ Este comportamiento es llamado __hoisting__, y sucede aunque lo queramos o no.
 
 Sin embargo `let` y `const` no funcionan de esa forma. _A diferencia de `var` estas si funcionan a nivel de bloque de código y no son transformadas a variables globales en tiempo de ejecución. Esto nos permite tener más control de cómo y dónde declaramos las variables y en qué lugares estas pueden ser manipuladas._
 
+{% include in-article-ad.html %}
+
 La palabra clave `const` como lo dice su nombre, se diferencia de `let` en que sus valores no pueden ser modificados una vez es inicializada, por lo que debe ser inicializada con un valor. Esto es bueno pues nunca tendremos variables de tipo constante indefinidas.
 
 Utilizando el mismo ejemplo con `let`

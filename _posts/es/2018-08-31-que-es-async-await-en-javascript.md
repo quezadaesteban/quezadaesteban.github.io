@@ -58,6 +58,8 @@ suma(x, y, function (resultado_de_suma) {                       // Resultado: 30
 ```
 __Este es un ejemplo representativo ya que los callbacks son usados más comúnmente para procesos asíncronos como peticiones a un servidor.__
 
+{% include in-article-ad.html %}
+
 ## Promesas
 
 Para reescribir el ejemplo anterior, transformaremos las funciones en promesas:

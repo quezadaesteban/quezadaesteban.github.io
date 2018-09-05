@@ -31,6 +31,8 @@ Para ejecutar y comprender mejor los pasos es necesario tener:
 * `nodejs` instalado y por ende `npm` también.
 * Conocimiento general de la sintaxis de Vuejs y su funcionamiento.
 
+{% include in-article-ad.html %}
+
 ## Instalación
 Ejecutamos el siguiente comando en la consola para instalar el nuevo `cli` de `vuejs`.
 
@@ -71,7 +73,7 @@ Se nos mostrará la siguiente pantalla.
 
 <img src="/assets/img/desktop/vue-ui-create-presets.png" alt="Presets de vue ui" width="100%"/>
 
-Aquí seleccionamos el `preset` que queremos usar para la aplicación. Un `preset` no es más que un conjunto de plugins y configuraciones con los que se creará el proyecto. Si seleccionamos `Default preset` el proyecto se creará con `babel` que transpila JavaScript 'moderno' para que funcione en navegadores más antiguos. Además de eso configurará `eslint` que permite mostrar errores de sintaxis cuando programamos con JavaScript. `eslint` está basada en [JavaScript Standard](https://standardjs.com/) del cual hice un resumen general [aquí](/tech/2018/07/14/escribe-codigo-mas-legible-con-los-siguientes-consejos.html).
+Aquí seleccionamos el `preset` que queremos usar para la aplicación. Un `preset` no es más que un conjunto de plugins y configuraciones con los que se creará el proyecto. Si seleccionamos `Default preset` el proyecto se creará con `babel` que transpila JavaScript 'moderno' para que funcione en navegadores más antiguos. Además de eso configurará `eslint` que permite mostrar errores de sintaxis cuando programamos con JavaScript. `eslint` está basada en [JavaScript Standard](https://standardjs.com/) del cual hice un [resumen general aquí](/tech/2018/07/14/escribe-codigo-mas-legible-con-los-siguientes-consejos.html).
 
 Procedemos a seleccionar `Default preset` y luego el botón verde en la parte inferior derecha que dice `Create Project`. Mientras se crea el proyecto veremos la siguiente pantalla.
 

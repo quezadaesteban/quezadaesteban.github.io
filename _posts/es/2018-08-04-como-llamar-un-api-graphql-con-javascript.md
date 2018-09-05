@@ -73,6 +73,9 @@ fetch('http://localhost:4000/graphql', {
   .then(res => res.json())
   .then(res => console.log(res))
 ```
+
+{% include in-article-ad.html %}
+
 ## XMLHttpRequest
 Al igual que `fetch`, `XMLHttpRequest` es una función nativa de JavaScript, solo que a diferencia de `fetch` tiene mucho mejor soporte para navegadores más antiguos.
 

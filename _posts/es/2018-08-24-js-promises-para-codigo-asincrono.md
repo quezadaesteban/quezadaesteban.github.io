@@ -62,6 +62,8 @@ Vemos que la impresión de "segundo" no sucede hasta después de un tiempo (en e
 
 Aquí usamos una función llamada `cb` (puede tener cualquier nombre), para que sea llamada una vez haya culminado el proceso asíncrono, en este caso, un lapso de tiempo de 3 segundos.
 
+{% include in-article-ad.html %}
+
 ## Promise()
 
 Las Promesas de JavaScript reciben una función con dos parámetros (`resolve`, `reject`) que son funciones que se llaman una vez el proceso se ejecute con éxito (`resolve`) o falle (`reject`).

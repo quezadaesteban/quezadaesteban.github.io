@@ -72,6 +72,8 @@ app.use(express.static('static'))
 ```
 _Express buscará los archivos en el orden que definan los directorios estáticos._
 
+{% include in-article-ad.html %}
+
 ## Rutas personalizadas
 Si queremos crear una ruta personalizada con la cual acceder los archivos estáticos, lo podemos hacer pasando el nombre como primer parámetro de la función de la siguiente manera:
 
