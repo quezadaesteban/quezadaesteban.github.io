@@ -40,11 +40,11 @@
     {{ content }}
     {% include share-bar.html %}
     <div class="sp"></div>
+    {% include text-display-ad.html %}
+    <div class="sp"></div>
     {% include suggest_in_post.html %}
-    {% if page.comments == true and jekyll.environment == "production" %}
     <hr>
     {% include disqus.html %}
-    {% endif %}
   </main>
   {% include footer.html %}
 </body>

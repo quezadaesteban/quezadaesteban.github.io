@@ -9,7 +9,7 @@ categories: Tech
 tags: code express graphql javascript
 author: esteban_quezada
 lang: es
-ads: false
+ads: true
 comments: true
 
 ---
@@ -78,22 +78,15 @@ About to write to /<...path-to-folder>/express-gql/package.json:
 
 Is this OK? (yes) yes
 ```
+
+{% include in-article-ad.html %}
+
+
 Luego de esto instalamos las dependencias que vamos a necesitar con el siguiente comando:
 
 ```bash
 $ npm install --save express graphql express-graphql
 ```
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4267778268611870"
-     data-ad-slot="2724149071"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 Una vez las dependencias estén instaladas, procedemos a crear el archivo principal que vamos a usar con el nombre de `index.js`.
 
@@ -134,6 +127,10 @@ const schema = buildSchema(`
   }
 `)
 ```
+
+{% include in-article-ad.html %}
+
+
 Definimos tres `Query`, `mensaje`, `persona` y `personas`. Tanto `persona` como `personas` requieren parámetros. Colocamos un `!` luego del tipo de dato para especificar que es un parámetro requerido. `persona` retorna un objeto de tipo `Persona` y `personas` retorna un arreglo de objetos de tipo `Persona`.
 
 Definimos también una mutación llamada `actualizarEdad` que recibe dos parámetros de tipo `Int` y retorna un objeto de tipo `Persona`.	
@@ -192,6 +189,10 @@ const { buildSchema } = require('graphql')
 // linea nueva
 let personas = require('./personas.json')
 ```
+
+{% include in-article-ad.html %}
+
+
 Ahora le diremos a la API de graphql como traer esa información que definimos en el esquema. Para esto crearemos funciones que manipulen el arreglo de objetos `personas` que requerimos hace poco. Es importante saber que las modificaciones que se hagan sobre los datos en tiempo de ejecución no se modificarán en el archivo real, es decir en `personas.json`, ya que estamos usando una variable temporal con la cual requerimos el archivo.
 
 Procedo a colocar el código con las funciones que se le aplicarán a nuestro esquema. Cuando se lleva  acabo una consulta con graphql se recibe un objeto de argumentos, estos argumentos son los parámetros enviados con la consulta.  Estaré utilizando `destructuración de objetos` para utilizar las propiedades directamente al crear la función. Más información [aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#Object_destructuring).
@@ -295,6 +296,7 @@ app.use('/graphql', expressGraphQL({
 
 app.listen(port, () => console.log(`Servidor graphql corriendo en http://localhost:${port}/graphql`))
 ```
+{% include in-article-ad.html %}
 
 ## Ejecución
 
