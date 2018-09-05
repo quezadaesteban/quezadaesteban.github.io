@@ -8,7 +8,6 @@ categories: Tech
 tags: code javascript
 author: esteban_quezada
 lang: es
-new_tag: true
 ads: true
 comments: true
 
