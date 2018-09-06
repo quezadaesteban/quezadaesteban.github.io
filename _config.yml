@@ -6,6 +6,7 @@ google_analytics: UA-121844997-1
 plugins:
     - jekyll-feed
     - jekyll-sitemap
+    - jemoji
 algolia:
     application_id: PW3NQ2E296
     index_name: ezteven_blog
