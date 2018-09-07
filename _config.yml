@@ -1,6 +1,9 @@
 title: Ezteven blog
 description: Me gusta ver el mundo desde otras perspectivas.
 logo: /assets/icons/blog.ezteven.com.png
+facebook_username: eztevenblog
+instagram_username: eztevenblog
+twitter_username: EztevenBlog
 theme: jekyll-theme-cayman
 google_analytics: UA-121844997-1
 plugins:
@@ -19,3 +22,4 @@ author:
     name: Esteban Quezada
     email: esteban.lds@outlook.com
     web: http://twitter.com/quezadaesteban
+    github: quezadaesteban
