@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Procrastinar é extremamente fácil
 description: Procrastinar é algo extremamente fácil de fazer. Até é uma coisa que fazemos com vontade.
 image: /assets/img/desktop/sleep.jpeg
 thumbnail: /assets/img/thumbnail/sleep.jpg
 categories: Pessoal
 tags: reflexões
-author: esteban_quezada
 lang: pt
 
 ---

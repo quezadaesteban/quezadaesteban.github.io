@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Probablemente lo puedes hacer con JavaScript
 description: Cuando buscamos desarrollar, ya sea una página web, una aplicación móvil o una aplicación de escritorio nos enfrentamos a diferentes desafíos.
 image: /assets/img/desktop/js-logo.png
 thumbnail: /assets/img/thumbnail/js-logo.jpg
 categories: Tech
 tags: code javascript development
-author: esteban_quezada
 lang: es
 ads: true
 

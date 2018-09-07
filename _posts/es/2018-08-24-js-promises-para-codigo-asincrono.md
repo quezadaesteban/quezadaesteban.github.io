@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Tareas asíncronas con Promises en JavaScript
 description: En JavaScript muchas acciones pueden ser asíncronas, pues son procesos que se pueden mantener en ejecución a la vez y no necesariamente se ejecutan secuencialmente con el resto del código.
 image: /assets/img/desktop/light-rays.jpg
 thumbnail: /assets/img/thumbnail/light-rays.jpg
 categories: Tech
 tags: code javascript
-author: esteban_quezada
 lang: es
 ads: true
 

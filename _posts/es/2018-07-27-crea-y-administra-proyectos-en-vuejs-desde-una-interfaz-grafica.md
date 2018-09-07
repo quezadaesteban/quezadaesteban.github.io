@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Crea y administra proyectos en VueJs desde una interfaz gráfica
 description: Con el nuevo Vue CLI, podemos crear y administrar proyectos en VueJs con una interfaz gráfica. Además de esto el cli nos permite, a través de la misma interfaz, realizar otras tareas como administrar plugins, dependencias y configuraciones.
 image: /assets/img/desktop/vue-ui-dashboard.png
 thumbnail: /assets/img/thumbnail/vue-ui-dashboard.jpg
 categories: Tech
 tags: code vue javascript development
-author: esteban_quezada
 lang: es
 ads: true
 

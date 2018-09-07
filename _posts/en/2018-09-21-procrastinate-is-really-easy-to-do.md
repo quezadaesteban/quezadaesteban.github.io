@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Procrastinate is really easy to do
 description: Procrastinating is something very easy to do. It even becomes something that we do voluntarily.
 image: /assets/img/desktop/sleep.jpeg
 thumbnail: /assets/img/thumbnail/sleep.jpg
 categories: Personal
 tags: thoughts
-author: esteban_quezada
 lang: en
 published: false
 

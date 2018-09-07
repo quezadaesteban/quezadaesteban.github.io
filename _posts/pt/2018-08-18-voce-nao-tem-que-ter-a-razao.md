@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Você não tem que ter a razão
 description: Quando falar com as pessoas, uma coisa que é de utilidade para nós é considerar que não temos que estar certo.
 image: /assets/img/desktop/puffy-smile.jpeg
 thumbnail: /assets/img/thumbnail/puffy-smile.jpg
 categories: Pessoal
 tags: reflexões
-author: esteban_quezada
 lang: pt
 
 ---

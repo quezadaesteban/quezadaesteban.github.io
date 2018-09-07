@@ -6,7 +6,6 @@ image: /assets/img/desktop/default-param.jpeg
 thumbnail: /assets/img/thumbnail/default-param.jpg
 categories: Tech
 tags: code javascript
-author: esteban_quezada
 lang: es
 ads: true
 new_tag: true

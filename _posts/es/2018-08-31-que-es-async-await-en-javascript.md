@@ -6,7 +6,6 @@ image: /assets/img/desktop/glass-spiral.jpeg
 thumbnail: /assets/img/thumbnail/glass-spiral.jpg
 categories: Tech
 tags: code javascript
-author: esteban_quezada
 lang: es
 ads: true
 

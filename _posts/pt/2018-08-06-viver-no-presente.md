@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Viver no presente
 description: Há muito do presente que precisa de nossa atenção e dedicação para perder o tempo nas coisas que não podemos mudar ou que tem acontecido.
 image: /assets/img/desktop/hourglass-time.jpeg
 thumbnail: /assets/img/thumbnail/hourglass-time.jpg
 categories: Pessoal
 tags: reflexões
-author: esteban_quezada
 lang: pt
 
 ---

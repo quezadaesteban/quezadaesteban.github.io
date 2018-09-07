@@ -6,7 +6,6 @@ image: /assets/img/desktop/egg-hammer.jpeg
 thumbnail: /assets/img/thumbnail/egg-hammer.jpg
 categories: Personal
 tags: reflexiones
-author: esteban_quezada
 lang: es
 new_tag: true
 ads: true

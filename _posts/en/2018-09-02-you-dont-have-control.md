@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: You don't have control
 description: Focusing on the things that we have no control over will make us lose sight of those that do.
 image: /assets/img/desktop/cascade-peace.jpeg
 thumbnail: /assets/img/thumbnail/cascade-peace.jpg
 categories: Personal
 tags: thoughts
-author: esteban_quezada
 lang: en
 
 ---

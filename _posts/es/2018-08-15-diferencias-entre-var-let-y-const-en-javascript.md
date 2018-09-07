@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Diferencias entre var, let y const en JavaScript
 description: Al la hora de declarar variables es común utilizar var, ya que es el método normalmente conocido. Sin embargo, desde ECMAScript 6, se introdujo a JavaScript dos nuevas palabras claves para declarar variables, las cuales son let y const. Para entender la necesidad de estas primero vamos a ver algunos puntos de como funciona var.
 image: /assets/img/desktop/js-code.jpeg
 thumbnail: /assets/img/thumbnail/js-code.jpg
 categories: Tech
 tags: code javascript
-author: esteban_quezada
 lang: es
 ads: true
 

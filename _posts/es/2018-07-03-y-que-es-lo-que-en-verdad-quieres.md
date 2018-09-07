@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Y...¿Qué es lo que en verdad quieres?
 description: La línea entre hacer lo que queremos y lo que debemos suele ser muy delgada.
 image: /assets/img/desktop/balance-rock.jpeg
 thumbnail: /assets/img/thumbnail/balance-rock.jpg
 categories: Personal
 tags: reflexiones
-author: esteban_quezada
 lang: es
 
 ---

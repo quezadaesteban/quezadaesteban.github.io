@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Escribe código más legible con los siguientes consejos
 description: Cuando el programa está escrito solo por nosotros, es relativamente fácil comprenderlo porque nosotros mismos nos "entendemos".
 image: /assets/img/desktop/mac-clean.jpeg
 thumbnail: /assets/img/thumbnail/mac-clean.jpg
 categories: Tech
 tags: code javascript php eslint
-author: esteban_quezada
 lang: es
 ads: true
 

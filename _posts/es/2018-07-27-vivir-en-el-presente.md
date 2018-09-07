@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Vivir en el presente
 description: Hay mucho del presente que requiere de nuestra atención y dedicación para perder tanto tiempo en cosas que no podemos cambiar y que no han sucedido.
 image: /assets/img/desktop/hourglass-time.jpeg
 thumbnail: /assets/img/thumbnail/hourglass-time.jpg
 categories: Personal
 tags: reflexiones
-author: esteban_quezada
 lang: es
 
 ---

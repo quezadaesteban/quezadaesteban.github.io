@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: ¿Cómo llamar un API GraphQL con JavaScript?
 description: Una vez tenemos un servidor con un API GraphQL funcionando, necesitamos una forma de acceder a esa información desde nuestra aplicación. A continuación les mostraré distintas formas de consultar un API GraphQL desde JavaScript.
 image: /assets/img/desktop/mac-code-side.jpeg
 thumbnail: /assets/img/thumbnail/mac-code-side.jpg
 categories: Tech
 tags: code graphql javascript
-author: esteban_quezada
 lang: es
 ads: true
 

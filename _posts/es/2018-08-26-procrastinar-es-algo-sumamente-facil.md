@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Procrastinar es algo súmamente fácil
 description: Procrastinar és algo sumamente fácil de hacer. Hasta llega a ser algo que hacemos voluntariamente.
 image: /assets/img/desktop/sleep.jpeg
 thumbnail: /assets/img/thumbnail/sleep.jpg
 categories: Personal
 tags: reflexiones
-author: esteban_quezada
 lang: es
 
 ---

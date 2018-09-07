@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: Crea un servidor Express con GraphQL
 description: Entre las tecnologías más interesantes de estos últimos años en lo que a desarrollo web se refiere, se encuentra la librería Express para crear servidores en nodejs y GraphQL, un lenguage de consulta para APIs que permite solicitar exactamente la información que se necesita de forma dinámica.
 image: /assets/img/desktop/mac-code-hand.jpeg
 thumbnail: /assets/img/thumbnail/mac-code-hand.jpg
 categories: Tech
 tags: code express graphql javascript
-author: esteban_quezada
 lang: es
 ads: true
 

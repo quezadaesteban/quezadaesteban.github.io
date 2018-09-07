@@ -6,6 +6,14 @@ instagram_username: eztevenblog
 twitter_username: EztevenBlog
 theme: jekyll-theme-cayman
 google_analytics: UA-121844997-1
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"
+            author: esteban_quezada
 plugins:
     - jekyll-feed
     - jekyll-sitemap

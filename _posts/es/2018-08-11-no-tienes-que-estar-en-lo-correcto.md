@@ -1,13 +1,11 @@
 ---
 
-layout: post
 title: No tienes que tener la razón
 description: Cuando hablemos con los demás, algo que nos sería de utilidad tener en cuenta es que no tenemos que estar en lo correcto.
 image: /assets/img/desktop/puffy-smile.jpeg
 thumbnail: /assets/img/thumbnail/puffy-smile.jpg
 categories: Personal
 tags: reflexiones
-author: esteban_quezada
 lang: es
 
 ---
