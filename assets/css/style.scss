@@ -8,6 +8,12 @@ $body-text-color: #383f42 !default;
 html {
   scroll-behavior: smooth;
 }
+footer {
+  padding: 10px;
+}
+.page-header {
+  padding: 4rem 6rem;
+}
 .post-title {
   color: #424242;
   font-weight: bold;
@@ -40,6 +46,10 @@ html {
 .post-col-right {
   position: relative;
   flex: 25%;
+}
+.social-button {
+  padding: 10px;
+  font-size: 22px;
 }
 .share-buttons {
   border-radius: 5px;
@@ -80,8 +90,11 @@ html {
 .icon-mail {
   color: #444444;
 }
-.icon-grey {
-  color: grey;
+.icon-rss {
+  color: orange;
+}
+.icon-white {
+  color: white;
 }
 .pagination {
   text-align: center;
@@ -192,5 +205,11 @@ footer {
   }
   .sp {
     padding: 15px;
+  }
+  .social-button {
+    font-size: 16px;
+  }
+  .page-header {
+    padding: 2rem 1rem;
   }
 }
