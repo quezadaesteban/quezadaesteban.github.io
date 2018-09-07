@@ -8,3 +8,5 @@ permalink: /search/
 lang: es
 
 ---
+
+{% include in-feed-ad.html %}

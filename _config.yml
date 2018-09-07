@@ -10,10 +10,15 @@ defaults:
     -
         scope:
             path: ""
+        values:
+            author: esteban_quezada
+            ads: true
+    -
+        scope:
+            path: ""
             type: "posts"
         values:
             layout: "post"
-            author: esteban_quezada
 plugins:
     - jekyll-feed
     - jekyll-sitemap

@@ -7,6 +7,7 @@ thumbnail: /assets/img/thumbnail/cascade-peace.jpg
 categories: Personal
 tags: reflexiones
 lang: es
+ads: false
 
 ---
 # No tienes el control

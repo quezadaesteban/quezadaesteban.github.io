@@ -7,6 +7,7 @@ thumbnail: /assets/img/thumbnail/hourglass-time.jpg
 categories: Pessoal
 tags: reflexões
 lang: pt
+ads: false
 
 ---
 

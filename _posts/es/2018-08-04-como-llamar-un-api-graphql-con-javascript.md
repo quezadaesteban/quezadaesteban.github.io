@@ -7,7 +7,6 @@ thumbnail: /assets/img/thumbnail/mac-code-side.jpg
 categories: Tech
 tags: code graphql javascript
 lang: es
-ads: true
 
 ---
 

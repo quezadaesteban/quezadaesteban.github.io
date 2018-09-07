@@ -8,7 +8,6 @@ categories: Personal
 tags: reflexiones
 lang: es
 new_tag: true
-ads: true
 published: false
 
 ---

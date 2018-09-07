@@ -7,7 +7,6 @@ thumbnail: /assets/img/thumbnail/mac-code-hand.jpg
 categories: Tech
 tags: code express graphql javascript
 lang: es
-ads: true
 
 ---
 # Crea un servidor Express con GraphQL

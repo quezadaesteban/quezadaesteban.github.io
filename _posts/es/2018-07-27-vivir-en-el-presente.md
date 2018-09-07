@@ -7,7 +7,7 @@ thumbnail: /assets/img/thumbnail/hourglass-time.jpg
 categories: Personal
 tags: reflexiones
 lang: es
-
+ads: false
 ---
 
 # Vivir en el presente

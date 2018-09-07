@@ -7,7 +7,6 @@ thumbnail: /assets/img/thumbnail/mac-clean.jpg
 categories: Tech
 tags: code javascript php eslint
 lang: es
-ads: true
 
 ---
 

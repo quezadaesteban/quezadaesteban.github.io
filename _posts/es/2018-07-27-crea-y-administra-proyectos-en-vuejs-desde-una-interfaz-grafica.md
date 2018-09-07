@@ -7,7 +7,6 @@ thumbnail: /assets/img/thumbnail/vue-ui-dashboard.jpg
 categories: Tech
 tags: code vue javascript development
 lang: es
-ads: true
 
 ---
 

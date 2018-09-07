@@ -7,6 +7,7 @@ thumbnail: /assets/img/thumbnail/road-nature-focus.jpg
 categories: Personal
 tags: reflexiones
 lang: es
+ads: false
 
 ---
 

@@ -8,6 +8,7 @@ categories: Personal
 tags: thoughts
 lang: en
 published: false
+ads: false
 
 ---
 

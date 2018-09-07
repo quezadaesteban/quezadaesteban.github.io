@@ -7,7 +7,6 @@ thumbnail: /assets/img/thumbnail/media-grid.jpg
 categories: Tech
 tags: code express javascript
 lang: es
-ads: true
 
 ---
 # Sirve aplicaciones web y archivos estáticos con Express

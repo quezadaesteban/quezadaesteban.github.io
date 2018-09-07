@@ -7,7 +7,6 @@ thumbnail: /assets/img/thumbnail/glass-spiral.jpg
 categories: Tech
 tags: code javascript
 lang: es
-ads: true
 
 ---
 

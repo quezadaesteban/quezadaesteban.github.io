@@ -7,7 +7,6 @@ thumbnail: /assets/img/thumbnail/js-code.jpg
 categories: Tech
 tags: code javascript
 lang: es
-ads: true
 
 ---
 

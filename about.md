@@ -1,11 +1,10 @@
 ---
 
-layout: default
 title: Acerca de
 image: /assets/icons/favicon-96x96.png
-author: esteban_quezada
 lang: es
 permalink: /about.html
+ads: false
 
 ---
 

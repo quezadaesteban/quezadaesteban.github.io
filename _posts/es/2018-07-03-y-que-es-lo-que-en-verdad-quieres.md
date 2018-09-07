@@ -7,6 +7,7 @@ thumbnail: /assets/img/thumbnail/balance-rock.jpg
 categories: Personal
 tags: reflexiones
 lang: es
+ads: false
 
 ---
 

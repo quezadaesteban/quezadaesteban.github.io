@@ -7,7 +7,6 @@ thumbnail: /assets/img/thumbnail/js-logo.jpg
 categories: Tech
 tags: code javascript development
 lang: es
-ads: true
 
 ---
 

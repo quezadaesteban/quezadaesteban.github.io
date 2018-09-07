@@ -7,6 +7,7 @@ thumbnail: /assets/img/thumbnail/puffy-smile.jpg
 categories: Personal
 tags: reflexiones
 lang: es
+ads: false
 
 ---
 
