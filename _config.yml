@@ -19,6 +19,7 @@ defaults:
             type: "posts"
         values:
             layout: "post"
+            comments: true
 plugins:
     - jekyll-feed
     - jekyll-sitemap
