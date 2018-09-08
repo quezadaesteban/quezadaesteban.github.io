@@ -8,7 +8,6 @@ categories: Tech
 tags: code javascript
 lang: es
 new_tag: true
-published: false
 
 ---
 
